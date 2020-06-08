@@ -1,0 +1,1143 @@
+{
+  "0": {
+    "identifier": "Additive Primary Color",
+    "colorFamily": "Red",
+    "colorFamilyI18N": "Red",
+    "representative": [
+      {
+        "name": "Red",
+        "nameI18N": "Red",
+        "hsv": "hsv(0, 100%, 100%)",
+        "rgb": "rgb(255, 0, 0)",
+        "hex": "#ff0000"
+      }
+    ],
+    "shades": [
+      {
+        "name": "Dark Red",
+        "nameI18N": "Dark Red",
+        "hsv": "hsv(0, 100%, 65%)",
+        "rgb": "rgb(166, 0, 0)",
+        "hex": "#a60000"
+      },
+      {
+        "name": "Maroon",
+        "nameI18N": "Maroon",
+        "hsv": "hsv(0, 100%, 35%)",
+        "rgb": "rgb(89, 0, 0)",
+        "hex": "#590000"
+      }
+    ],
+    "tints": [
+      {
+        "name": "Pale Raspberry",
+        "nameI18N": "Pale Raspberry",
+        "hsv": "hsv(0, 50%, 100%)",
+        "rgb": "rgb(255, 128, 128)",
+        "hex": "#ff8080"
+      },
+      {
+        "name": "Ham",
+        "nameI18N": "Ham",
+        "hsv": "hsv(0, 22%, 100%)",
+        "rgb": "rgb(255, 199, 199)",
+        "hex": "#ffc7c7"
+      }
+    ],
+    "achromatic": [
+      {
+        "name": "Black",
+        "nameI18N": "Black",
+        "hsv": "hsv(0, 0%, 0%)",
+        "rgb": "rgb(0, 0, 0)",
+        "hex": "#000000"
+      },
+      {
+        "name": "White",
+        "nameI18N": "White",
+        "hsv": "hsv(0, 100%, 100%)",
+        "rgb": "rgb(255, 0, 0)",
+        "hex": "#ff0000"
+      },
+      {
+        "name": "Gray",
+        "nameI18N": "Gray",
+        "hsv": "hsv(0, 100%, 50%)",
+        "rgb": "rgb(128, 0, 0)",
+        "hex": "#800000"
+      },
+      {
+        "name": "Dark Gray",
+        "nameI18N": "Dark Gray",
+        "hsv": "hsv(0, 100%, 35%)",
+        "rgb": "rgb(89, 0, 0)",
+        "hex": "#590000"
+      },
+      {
+        "name": "Light Gray",
+        "nameI18N": "Light Gray",
+        "hsv": "hsv(0, 100%, 65%)",
+        "rgb": "rgb(166, 0, 0)",
+        "hex": "#a60000"
+      }
+    ]
+  },
+  "30": {
+    "identifier": "Tertiary Color",
+    "colorFamily": "Orange",
+    "colorFamilyI18N": "Orange",
+    "representative": [
+      {
+        "name": "Orange",
+        "nameI18N": "Orange",
+        "hsv": "hsv(30, 100%, 100%)",
+        "rgb": "rgb(255, 128, 0)",
+        "hex": "#ff8000"
+      }
+    ],
+    "shades": [
+      {
+        "name": "Brown",
+        "nameI18N": "Brown",
+        "hsv": "hsv(30, 100%, 65%)",
+        "rgb": "rgb(166, 83, 0)",
+        "hex": "#a65300"
+      },
+      {
+        "name": "Dark Brown",
+        "nameI18N": "Dark Brown",
+        "hsv": "hsv(30, 100%, 35%)",
+        "rgb": "rgb(89, 45, 0)",
+        "hex": "#592d00"
+      }
+    ],
+    "tints": [
+      {
+        "name": "Peanut Butter",
+        "nameI18N": "Peanut Butter",
+        "hsv": "hsv(30, 50%, 100%)",
+        "rgb": "rgb(255, 191, 128)",
+        "hex": "#ffbf80"
+      },
+      {
+        "name": "Parmesan Cheese",
+        "nameI18N": "Parmesan Cheese",
+        "hsv": "hsv(30, 22%, 100%)",
+        "rgb": "rgb(255, 227, 199)",
+        "hex": "#ffe3c7"
+      }
+    ]
+  },
+  "42": {
+    "identifier": "Secondary Color",
+    "colorFamily": "Turmeric",
+    "colorFamilyI18N": "Turmeric",
+    "representative": [
+      {
+        "name": "Yellow Ochre",
+        "nameI18N": "Yellow Ochre",
+        "hsv": "hsv(42, 100%, 100%)",
+        "rgb": "rgb(255, 179, 0)",
+        "hex": "#ffb300"
+      }
+    ],
+    "shades": [
+      {
+        "name": "Tan",
+        "nameI18N": "Tan",
+        "hsv": "hsv(42, 100%, 65%)",
+        "rgb": "rgb(166, 116, 0)",
+        "hex": "#a67400"
+      },
+      {
+        "name": "Milk Chocolate",
+        "nameI18N": "Milk Chocolate",
+        "hsv": "hsv(42, 100%, 35%)",
+        "rgb": "rgb(89, 62, 0)",
+        "hex": "#593e00"
+      }
+    ],
+    "tints": [
+      {
+        "name": "Turmeric",
+        "nameI18N": "Turmeric",
+        "hsv": "hsv(42, 50%, 100%)",
+        "rgb": "rgb(255, 217, 128)",
+        "hex": "#ffd980"
+      },
+      {
+        "name": "Buff",
+        "nameI18N": "Buff",
+        "hsv": "hsv(42, 22%, 100%)",
+        "rgb": "rgb(255, 238, 199)",
+        "hex": "#ffeec7"
+      }
+    ]
+  },
+  "50": {
+    "identifier": "Tertiary Color",
+    "colorFamily": "Yellow Cheese",
+    "colorFamilyI18N": "Yellow Cheese",
+    "representative": [
+      {
+        "name": "Yellow Ochre",
+        "nameI18N": "Yellow Ochre",
+        "hsv": "hsv(50, 100%, 100%)",
+        "rgb": "rgb(255, 213, 0)",
+        "hex": "#ffd500"
+      }
+    ],
+    "shades": [
+      {
+        "name": "Cane Toad",
+        "nameI18N": "Cane Toad",
+        "hsv": "hsv(50, 100%, 65%)",
+        "rgb": "rgb(166, 138, 0)",
+        "hex": "#a68a00"
+      },
+      {
+        "name": "Cow Dung",
+        "nameI18N": "Cow Dung",
+        "hsv": "hsv(50, 100%, 35%)",
+        "rgb": "rgb(89, 74, 0)",
+        "hex": "#594a00"
+      }
+    ],
+    "tints": [
+      {
+        "name": "Yellow Cheese",
+        "nameI18N": "Yellow Cheese",
+        "hsv": "hsv(50, 50%, 100%)",
+        "rgb": "rgb(255, 234, 128)",
+        "hex": "#ffea80"
+      },
+      {
+        "name": "Wheat Ear",
+        "nameI18N": "Wheat Ear",
+        "hsv": "hsv(50, 22%, 100%)",
+        "rgb": "rgb(255, 246, 199)",
+        "hex": "#fff6c7"
+      }
+    ]
+  },
+  "60": {
+    "identifier": "Subtractive Primary Color",
+    "colorFamily": "Yellow",
+    "colorFamilyI18N": "Yellow",
+    "representative": [
+      {
+        "name": "Wasabi",
+        "nameI18N": "Wasabi",
+        "hsv": "hsv(60, 100%, 100%)",
+        "rgb": "rgb(255, 255, 0)",
+        "hex": "#ffff00"
+      }
+    ],
+    "shades": [
+      {
+        "name": "Olive",
+        "nameI18N": "Olive",
+        "hsv": "hsv(60, 100%, 65%)",
+        "rgb": "rgb(166, 166, 0)",
+        "hex": "#a6a600"
+      },
+      {
+        "name": "Olive Drab",
+        "nameI18N": "Olive Drab",
+        "hsv": "hsv(60, 100%, 35%)",
+        "rgb": "rgb(89, 89, 0)",
+        "hex": "#595900"
+      }
+    ],
+    "tints": [
+      {
+        "name": "Yellow",
+        "nameI18N": "Yellow",
+        "hsv": "hsv(60, 50%, 100%)",
+        "rgb": "rgb(255, 255, 128)",
+        "hex": "#ffff80"
+      },
+      {
+        "name": "Butter",
+        "nameI18N": "Butter",
+        "hsv": "hsv(60, 22%, 100%)",
+        "rgb": "rgb(255, 255, 199)",
+        "hex": "#ffffc7"
+      }
+    ]
+  },
+  "65": {
+    "identifier": "Tertiary Color",
+    "colorFamily": "Green Grape",
+    "colorFamilyI18N": "Green Grape",
+    "representative": [
+      {
+        "name": "Green Grape",
+        "nameI18N": "Green Grape",
+        "hsv": "hsv(65, 100%, 100%)",
+        "rgb": "rgb(234, 255, 0)",
+        "hex": "#eaff00"
+      }
+    ],
+    "shades": [
+      {
+        "name": "Light Kelp",
+        "nameI18N": "Light Kelp",
+        "hsv": "hsv(65, 100%, 65%)",
+        "rgb": "rgb(152, 166, 0)",
+        "hex": "#98a600"
+      },
+      {
+        "name": "Dark Kelp",
+        "nameI18N": "Dark Kelp",
+        "hsv": "hsv(65, 100%, 35%)",
+        "rgb": "rgb(82, 89, 0)",
+        "hex": "#525900"
+      }
+    ],
+    "tints": [
+      {
+        "name": "Golden Delicious",
+        "nameI18N": "Golden Delicious",
+        "hsv": "hsv(65, 50%, 100%)",
+        "rgb": "rgb(244, 255, 128)",
+        "hex": "#f4ff80"
+      },
+      {
+        "name": "Champagne",
+        "nameI18N": "Champagne",
+        "hsv": "hsv(65, 22%, 100%)",
+        "rgb": "rgb(250, 255, 199)",
+        "hex": "#faffc7"
+      }
+    ]
+  },
+  "76": {
+    "identifier": "Secondary Color",
+    "colorFamily": "Chartreuse",
+    "colorFamilyI18N": "Chartreuse",
+    "representative": [
+      {
+        "name": "Green Grape",
+        "nameI18N": "Green Grape",
+        "hsv": "hsv(76, 100%, 100%)",
+        "rgb": "rgb(187, 255, 0)",
+        "hex": "#bbff00"
+      }
+    ],
+    "shades": [
+      {
+        "name": "Sage",
+        "nameI18N": "Sage",
+        "hsv": "hsv(76, 100%, 65%)",
+        "rgb": "rgb(122, 166, 0)",
+        "hex": "#7aa600"
+      },
+      {
+        "name": "Oak Leaf",
+        "nameI18N": "Oak Leaf",
+        "hsv": "hsv(76, 100%, 35%)",
+        "rgb": "rgb(65, 89, 0)",
+        "hex": "#415900"
+      }
+    ],
+    "tints": [
+      {
+        "name": "Chartreuse",
+        "nameI18N": "Chartreuse",
+        "hsv": "hsv(76, 50%, 100%)",
+        "rgb": "rgb(221, 255, 128)",
+        "hex": "#ddff80"
+      },
+      {
+        "name": "Avacado",
+        "nameI18N": "Avacado",
+        "hsv": "hsv(76, 22%, 100%)",
+        "rgb": "rgb(240, 255, 199)",
+        "hex": "#f0ffc7"
+      }
+    ]
+  },
+  "87": {
+    "identifier": "Tertiary Color",
+    "colorFamily": "Green Pea",
+    "colorFamilyI18N": "Green Pea",
+    "representative": [
+      {
+        "name": "Basil",
+        "nameI18N": "Basil",
+        "hsv": "hsv(87, 100%, 100%)",
+        "rgb": "rgb(140, 255, 0)",
+        "hex": "#8cff00"
+      }
+    ],
+    "shades": [
+      {
+        "name": "Spinach",
+        "nameI18N": "Spinach",
+        "hsv": "hsv(87, 100%, 65%)",
+        "rgb": "rgb(91, 166, 0)",
+        "hex": "#5ba600"
+      },
+      {
+        "name": "Rhubarb Leaf",
+        "nameI18N": "Rhubarb Leaf",
+        "hsv": "hsv(87, 100%, 35%)",
+        "rgb": "rgb(49, 89, 0)",
+        "hex": "#315900"
+      }
+    ],
+    "tints": [
+      {
+        "name": "Green Pea",
+        "nameI18N": "Green Pea",
+        "hsv": "hsv(87, 50%, 100%)",
+        "rgb": "rgb(198, 255, 128)",
+        "hex": "#c6ff80"
+      },
+      {
+        "name": "Green Cabbage",
+        "nameI18N": "Green Cabbage",
+        "hsv": "hsv(87, 22%, 100%)",
+        "rgb": "rgb(230, 255, 199)",
+        "hex": "#e6ffc7"
+      }
+    ]
+  },
+  "120": {
+    "identifier": "Additive Primary Color",
+    "colorFamily": "Green",
+    "colorFamilyI18N": "Green",
+    "representative": [
+      {
+        "name": "Green",
+        "nameI18N": "Green",
+        "hsv": "hsv(120, 100%, 100%)",
+        "rgb": "rgb(0, 255, 0)",
+        "hex": "#00ff00"
+      }
+    ],
+    "shades": [
+      {
+        "name": "Green Grass",
+        "nameI18N": "Green Grass",
+        "hsv": "hsv(120, 100%, 65%)",
+        "rgb": "rgb(0, 166, 0)",
+        "hex": "#00a600"
+      },
+      {
+        "name": "Zucchini",
+        "nameI18N": "Zucchini",
+        "hsv": "hsv(120, 100%, 35%)",
+        "rgb": "rgb(0, 89, 0)",
+        "hex": "#005900"
+      }
+    ],
+    "tints": [
+      {
+        "name": "Granny Smith",
+        "nameI18N": "Granny Smith",
+        "hsv": "hsv(120, 50%, 100%)",
+        "rgb": "rgb(128, 255, 128)",
+        "hex": "#80ff80"
+      },
+      {
+        "name": "Green Hellebore",
+        "nameI18N": "Green Hellebore",
+        "hsv": "hsv(120, 22%, 100%)",
+        "rgb": "rgb(199, 255, 199)",
+        "hex": "#c7ffc7"
+      }
+    ]
+  },
+  "147": {
+    "identifier": "Tertiary Color",
+    "colorFamily": "Clover",
+    "colorFamilyI18N": "Clover",
+    "representative": [
+      {
+        "name": "Clover",
+        "nameI18N": "Clover",
+        "hsv": "hsv(147, 100%, 100%)",
+        "rgb": "rgb(0, 255, 115)",
+        "hex": "#00ff73"
+      }
+    ],
+    "shades": [
+      {
+        "name": "Shaded Fern",
+        "nameI18N": "Shaded Fern",
+        "hsv": "hsv(147, 100%, 65%)",
+        "rgb": "rgb(0, 166, 75)",
+        "hex": "#00a64b"
+      },
+      {
+        "name": "Cucumber",
+        "nameI18N": "Cucumber",
+        "hsv": "hsv(147, 100%, 35%)",
+        "rgb": "rgb(0, 89, 40)",
+        "hex": "#005928"
+      }
+    ],
+    "tints": [
+      {
+        "name": "Chayote",
+        "nameI18N": "Chayote",
+        "hsv": "hsv(147, 50%, 100%)",
+        "rgb": "rgb(128, 255, 185)",
+        "hex": "#80ffb9"
+      },
+      {
+        "name": "Celadon",
+        "nameI18N": "Celadon",
+        "hsv": "hsv(147, 22%, 100%)",
+        "rgb": "rgb(199, 255, 224)",
+        "hex": "#c7ffe0"
+      }
+    ]
+  },
+  "160": {
+    "identifier": "Secondary Color",
+    "colorFamily": "Emerald",
+    "colorFamilyI18N": "Emerald",
+    "representative": [
+      {
+        "name": "Light Emerald",
+        "nameI18N": "Light Emerald",
+        "hsv": "hsv(160, 100%, 100%)",
+        "rgb": "rgb(0, 255, 170)",
+        "hex": "#00ffaa"
+      }
+    ],
+    "shades": [
+      {
+        "name": "Emerald",
+        "nameI18N": "Emerald",
+        "hsv": "hsv(160, 100%, 65%)",
+        "rgb": "rgb(0, 166, 110)",
+        "hex": "#00a66e"
+      },
+      {
+        "name": "Brunswick Green",
+        "nameI18N": "Brunswick Green",
+        "hsv": "hsv(160, 100%, 35%)",
+        "rgb": "rgb(0, 89, 59)",
+        "hex": "#00593b"
+      }
+    ],
+    "tints": [
+      {
+        "name": "Chrysolite",
+        "nameI18N": "Chrysolite",
+        "hsv": "hsv(160, 50%, 100%)",
+        "rgb": "rgb(128, 255, 212)",
+        "hex": "#80ffd4"
+      },
+      {
+        "name": "Variscite",
+        "nameI18N": "Variscite",
+        "hsv": "hsv(160, 22%, 100%)",
+        "rgb": "rgb(199, 255, 236)",
+        "hex": "#c7ffec"
+      }
+    ]
+  },
+  "172": {
+    "identifier": "Tertiary Color",
+    "colorFamily": "Malachite",
+    "colorFamilyI18N": "Malachite",
+    "representative": [
+      {
+        "name": "Shallow Sea Green",
+        "nameI18N": "Shallow Sea Green",
+        "hsv": "hsv(172, 100%, 100%)",
+        "rgb": "rgb(0, 255, 221)",
+        "hex": "#00ffdd"
+      }
+    ],
+    "shades": [
+      {
+        "name": "Broccoli",
+        "nameI18N": "Broccoli",
+        "hsv": "hsv(172, 100%, 65%)",
+        "rgb": "rgb(0, 166, 144)",
+        "hex": "#00a690"
+      },
+      {
+        "name": "Malachite",
+        "nameI18N": "Malachite",
+        "hsv": "hsv(172, 100%, 35%)",
+        "rgb": "rgb(0, 89, 77)",
+        "hex": "#00594d"
+      }
+    ],
+    "tints": [
+      {
+        "name": "Verdigris",
+        "nameI18N": "Verdigris",
+        "hsv": "hsv(172, 50%, 100%)",
+        "rgb": "rgb(128, 255, 238)",
+        "hex": "#80ffee"
+      },
+      {
+        "name": "Blue Agave",
+        "nameI18N": "Blue Agave",
+        "hsv": "hsv(172, 22%, 100%)",
+        "rgb": "rgb(199, 255, 248)",
+        "hex": "#c7fff8"
+      }
+    ]
+  },
+  "180": {
+    "identifier": "Subtractive Primary Color",
+    "colorFamily": "Cyan",
+    "colorFamilyI18N": "Cyan",
+    "representative": [
+      {
+        "name": "Dark Cyan",
+        "nameI18N": "Dark Cyan",
+        "hsv": "hsv(180, 100%, 100%)",
+        "rgb": "rgb(0, 255, 255)",
+        "hex": "#00ffff"
+      }
+    ],
+    "shades": [
+      {
+        "name": "Blue Spruce Dark",
+        "nameI18N": "Blue Spruce Dark",
+        "hsv": "hsv(180, 100%, 65%)",
+        "rgb": "rgb(0, 166, 166)",
+        "hex": "#00a6a6"
+      },
+      {
+        "name": "Pthalo Green",
+        "nameI18N": "Pthalo Green",
+        "hsv": "hsv(180, 100%, 35%)",
+        "rgb": "rgb(0, 89, 89)",
+        "hex": "#005959"
+      }
+    ],
+    "tints": [
+      {
+        "name": "Cyan",
+        "nameI18N": "Cyan",
+        "hsv": "hsv(180, 50%, 100%)",
+        "rgb": "rgb(128, 255, 255)",
+        "hex": "#80ffff"
+      },
+      {
+        "name": "Blue Spruce Light",
+        "nameI18N": "Blue Spruce Light",
+        "hsv": "hsv(180, 22%, 100%)",
+        "rgb": "rgb(199, 255, 255)",
+        "hex": "#c7ffff"
+      }
+    ]
+  },
+  "190": {
+    "identifier": "Tertiary Color",
+    "colorFamily": "Turquoise",
+    "colorFamilyI18N": "Turquoise",
+    "representative": [
+      {
+        "name": "Blue Topaz",
+        "nameI18N": "Blue Topaz",
+        "hsv": "hsv(190, 100%, 100%)",
+        "rgb": "rgb(0, 212, 255)",
+        "hex": "#00d4ff"
+      }
+    ],
+    "shades": [
+      {
+        "name": "Sea Green",
+        "nameI18N": "Sea Green",
+        "hsv": "hsv(190, 100%, 65%)",
+        "rgb": "rgb(0, 138, 166)",
+        "hex": "#008aa6"
+      },
+      {
+        "name": "Dark Sea Green",
+        "nameI18N": "Dark Sea Green",
+        "hsv": "hsv(190, 100%, 35%)",
+        "rgb": "rgb(0, 74, 89)",
+        "hex": "#004a59"
+      }
+    ],
+    "tints": [
+      {
+        "name": "Turquoise",
+        "nameI18N": "Turquoise",
+        "hsv": "hsv(190, 50%, 100%)",
+        "rgb": "rgb(128, 234, 255)",
+        "hex": "#80eaff"
+      },
+      {
+        "name": "Uranus",
+        "nameI18N": "Uranus",
+        "hsv": "hsv(190, 22%, 100%)",
+        "rgb": "rgb(199, 246, 255)",
+        "hex": "#c7f6ff"
+      }
+    ]
+  },
+  "200": {
+    "identifier": "Secondary Color",
+    "colorFamily": "Azure",
+    "colorFamilyI18N": "Azure",
+    "representative": [
+      {
+        "name": "Dark Azure",
+        "nameI18N": "Dark Azure",
+        "hsv": "hsv(200, 100%, 100%)",
+        "rgb": "rgb(0, 170, 255)",
+        "hex": "#00aaff"
+      }
+    ],
+    "shades": [
+      {
+        "name": "Cobalt Blue",
+        "nameI18N": "Cobalt Blue",
+        "hsv": "hsv(200, 100%, 65%)",
+        "rgb": "rgb(0, 110, 166)",
+        "hex": "#006ea6"
+      },
+      {
+        "name": "Prussian Blue",
+        "nameI18N": "Prussian Blue",
+        "hsv": "hsv(200, 100%, 35%)",
+        "rgb": "rgb(0, 59, 89)",
+        "hex": "#003b59"
+      }
+    ],
+    "tints": [
+      {
+        "name": "Light Azure",
+        "nameI18N": "Light Azure",
+        "hsv": "hsv(200, 50%, 100%)",
+        "rgb": "rgb(128, 212, 255)",
+        "hex": "#80d4ff"
+      },
+      {
+        "name": "Powder Blue",
+        "nameI18N": "Powder Blue",
+        "hsv": "hsv(200, 22%, 100%)",
+        "rgb": "rgb(199, 236, 255)",
+        "hex": "#c7ecff"
+      }
+    ]
+  },
+  "214": {
+    "identifier": "Tertiary Color",
+    "colorFamily": "Royal Blue",
+    "colorFamilyI18N": "Royal Blue",
+    "representative": [
+      {
+        "name": "Delphinium Blue",
+        "nameI18N": "Delphinium Blue",
+        "hsv": "hsv(214, 100%, 100%)",
+        "rgb": "rgb(0, 111, 255)",
+        "hex": "#006fff"
+      }
+    ],
+    "shades": [
+      {
+        "name": "Royal Blue",
+        "nameI18N": "Royal Blue",
+        "hsv": "hsv(214, 100%, 65%)",
+        "rgb": "rgb(0, 72, 166)",
+        "hex": "#0048a6"
+      },
+      {
+        "name": "Dark Royal Blue",
+        "nameI18N": "Dark Royal Blue",
+        "hsv": "hsv(214, 100%, 35%)",
+        "rgb": "rgb(0, 39, 89)",
+        "hex": "#002759"
+      }
+    ],
+    "tints": [
+      {
+        "name": "Sky Blue",
+        "nameI18N": "Sky Blue",
+        "hsv": "hsv(214, 50%, 100%)",
+        "rgb": "rgb(128, 183, 255)",
+        "hex": "#80b7ff"
+      },
+      {
+        "name": "Pale Sky Blue",
+        "nameI18N": "Pale Sky Blue",
+        "hsv": "hsv(214, 22%, 100%)",
+        "rgb": "rgb(199, 223, 255)",
+        "hex": "#c7dfff"
+      }
+    ]
+  },
+  "240": {
+    "identifier": "Additive Primary Color",
+    "colorFamily": "Blue",
+    "colorFamilyI18N": "Blue",
+    "representative": [
+      {
+        "name": "Delphinium Blue",
+        "nameI18N": "Delphinium Blue",
+        "hsv": "hsv(240, 100%, 100%)",
+        "rgb": "rgb(0, 0, 255)",
+        "hex": "#0000ff"
+      }
+    ],
+    "shades": [
+      {
+        "name": "Blue",
+        "nameI18N": "Blue",
+        "hsv": "hsv(240, 100%, 65%)",
+        "rgb": "rgb(0, 0, 166)",
+        "hex": "#0000a6"
+      },
+      {
+        "name": "Dark Blue",
+        "nameI18N": "Dark Blue",
+        "hsv": "hsv(240, 100%, 35%)",
+        "rgb": "rgb(0, 0, 89)",
+        "hex": "#000059"
+      }
+    ],
+    "tints": [
+      {
+        "name": "Cornflower",
+        "nameI18N": "Cornflower",
+        "hsv": "hsv(240, 50%, 100%)",
+        "rgb": "rgb(128, 128, 255)",
+        "hex": "#8080ff"
+      },
+      {
+        "name": "Forget-Me-Not",
+        "nameI18N": "Forget-Me-Not",
+        "hsv": "hsv(240, 22%, 100%)",
+        "rgb": "rgb(199, 199, 255)",
+        "hex": "#c7c7ff"
+      }
+    ]
+  },
+  "267": {
+    "identifier": "Tertiary Color",
+    "colorFamily": "Dioxazine",
+    "colorFamilyI18N": "Dioxazine",
+    "representative": [
+      {
+        "name": "Delphinium Blue",
+        "nameI18N": "Delphinium Blue",
+        "hsv": "hsv(267, 100%, 100%)",
+        "rgb": "rgb(115, 0, 255)",
+        "hex": "#7300ff"
+      }
+    ],
+    "shades": [
+      {
+        "name": "Han Purple",
+        "nameI18N": "Han Purple",
+        "hsv": "hsv(267, 100%, 65%)",
+        "rgb": "rgb(75, 0, 166)",
+        "hex": "#4b00a6"
+      },
+      {
+        "name": "Dioxazine",
+        "nameI18N": "Dioxazine",
+        "hsv": "hsv(267, 100%, 35%)",
+        "rgb": "rgb(40, 0, 89)",
+        "hex": "#280059"
+      }
+    ],
+    "tints": [
+      {
+        "name": "Lavender",
+        "nameI18N": "Lavender",
+        "hsv": "hsv(267, 50%, 100%)",
+        "rgb": "rgb(185, 128, 255)",
+        "hex": "#b980ff"
+      },
+      {
+        "name": "Rose de France",
+        "nameI18N": "Rose de France",
+        "hsv": "hsv(267, 22%, 100%)",
+        "rgb": "rgb(224, 199, 255)",
+        "hex": "#e0c7ff"
+      }
+    ]
+  },
+  "280": {
+    "identifier": "Secondary Color",
+    "colorFamily": "Violet",
+    "colorFamilyI18N": "Violet",
+    "representative": [
+      {
+        "name": "Violet",
+        "nameI18N": "Violet",
+        "hsv": "hsv(280, 100%, 100%)",
+        "rgb": "rgb(170, 0, 255)",
+        "hex": "#aa00ff"
+      }
+    ],
+    "shades": [
+      {
+        "name": "Dark Violet",
+        "nameI18N": "Dark Violet",
+        "hsv": "hsv(280, 100%, 65%)",
+        "rgb": "rgb(111, 0, 166)",
+        "hex": "#6f00a6"
+      },
+      {
+        "name": "Spectral Violet",
+        "nameI18N": "Spectral Violet",
+        "hsv": "hsv(280, 100%, 35%)",
+        "rgb": "rgb(60, 0, 89)",
+        "hex": "#3c0059"
+      }
+    ],
+    "tints": [
+      {
+        "name": "Kunzite",
+        "nameI18N": "Kunzite",
+        "hsv": "hsv(280, 50%, 100%)",
+        "rgb": "rgb(213, 128, 255)",
+        "hex": "#d580ff"
+      },
+      {
+        "name": "Mauve",
+        "nameI18N": "Mauve",
+        "hsv": "hsv(280, 22%, 100%)",
+        "rgb": "rgb(236, 199, 255)",
+        "hex": "#ecc7ff"
+      }
+    ]
+  },
+  "290": {
+    "identifier": "Tertiary Color",
+    "colorFamily": "Aniline",
+    "colorFamilyI18N": "Aniline",
+    "representative": [
+      {
+        "name": "Purple Daisy",
+        "nameI18N": "Purple Daisy",
+        "hsv": "hsv(290, 100%, 100%)",
+        "rgb": "rgb(213, 0, 255)",
+        "hex": "#d500ff"
+      }
+    ],
+    "shades": [
+      {
+        "name": "Aniline",
+        "nameI18N": "Aniline",
+        "hsv": "hsv(290, 100%, 65%)",
+        "rgb": "rgb(138, 0, 166)",
+        "hex": "#8a00a6"
+      },
+      {
+        "name": "Amethyst",
+        "nameI18N": "Amethyst",
+        "hsv": "hsv(290, 100%, 35%)",
+        "rgb": "rgb(74, 0, 89)",
+        "hex": "#4a0059"
+      }
+    ],
+    "tints": [
+      {
+        "name": "Rose Of Sharon",
+        "nameI18N": "Rose Of Sharon",
+        "hsv": "hsv(290, 50%, 100%)",
+        "rgb": "rgb(234, 128, 255)",
+        "hex": "#ea80ff"
+      },
+      {
+        "name": "Lilac",
+        "nameI18N": "Lilac",
+        "hsv": "hsv(290, 22%, 100%)",
+        "rgb": "rgb(246, 199, 255)",
+        "hex": "#f6c7ff"
+      }
+    ]
+  },
+  "300": {
+    "identifier": "Subtractive Primary Color",
+    "colorFamily": "Magenta",
+    "colorFamilyI18N": "Magenta",
+    "representative": [
+      {
+        "name": "Dark Magenta",
+        "nameI18N": "Dark Magenta",
+        "hsv": "hsv(300, 100%, 100%)",
+        "rgb": "rgb(255, 0, 255)",
+        "hex": "#ff00ff"
+      }
+    ],
+    "shades": [
+      {
+        "name": "Light Purple",
+        "nameI18N": "Light Purple",
+        "hsv": "hsv(300, 100%, 65%)",
+        "rgb": "rgb(166, 0, 166)",
+        "hex": "#a600a6"
+      },
+      {
+        "name": "Purple",
+        "nameI18N": "Purple",
+        "hsv": "hsv(300, 100%, 35%)",
+        "rgb": "rgb(89, 0, 89)",
+        "hex": "#590059"
+      }
+    ],
+    "tints": [
+      {
+        "name": "Magenta",
+        "nameI18N": "Magenta",
+        "hsv": "hsv(300, 50%, 100%)",
+        "rgb": "rgb(255, 128, 255)",
+        "hex": "#ff80ff"
+      },
+      {
+        "name": "Musk",
+        "nameI18N": "Musk",
+        "hsv": "hsv(300, 22%, 100%)",
+        "rgb": "rgb(255, 199, 255)",
+        "hex": "#ffc7ff"
+      }
+    ]
+  },
+  "310": {
+    "identifier": "Tertiary Color",
+    "colorFamily": "Bougainvillea",
+    "colorFamilyI18N": "Bougainvillea",
+    "representative": [
+      {
+        "name": "Shocking Pink",
+        "nameI18N": "Shocking Pink",
+        "hsv": "hsv(310, 100%, 100%)",
+        "rgb": "rgb(255, 0, 212)",
+        "hex": "#ff00d4"
+      }
+    ],
+    "shades": [
+      {
+        "name": "Purple Bougainvillea",
+        "nameI18N": "Purple Bougainvillea",
+        "hsv": "hsv(310, 100%, 65%)",
+        "rgb": "rgb(166, 0, 138)",
+        "hex": "#a6008a"
+      },
+      {
+        "name": "Purple Bean",
+        "nameI18N": "Purple Bean",
+        "hsv": "hsv(310, 100%, 35%)",
+        "rgb": "rgb(89, 0, 74)",
+        "hex": "#59004a"
+      }
+    ],
+    "tints": [
+      {
+        "name": "Purple Loosestrife",
+        "nameI18N": "Purple Loosestrife",
+        "hsv": "hsv(310, 50%, 100%)",
+        "rgb": "rgb(255, 128, 234)",
+        "hex": "#ff80ea"
+      },
+      {
+        "name": "Dog Rose",
+        "nameI18N": "Dog Rose",
+        "hsv": "hsv(310, 22%, 100%)",
+        "rgb": "rgb(255, 199, 246)",
+        "hex": "#ffc7f6"
+      }
+    ]
+  },
+  "320": {
+    "identifier": "Secondary Color",
+    "colorFamily": "Pink",
+    "colorFamilyI18N": "Pink",
+    "representative": [
+      {
+        "name": "Dark Pink",
+        "nameI18N": "Dark Pink",
+        "hsv": "hsv(320, 100%, 100%)",
+        "rgb": "rgb(255, 0, 170)",
+        "hex": "#ff00aa"
+      }
+    ],
+    "shades": [
+      {
+        "name": "Prickly Pear",
+        "nameI18N": "Prickly Pear",
+        "hsv": "hsv(320, 100%, 65%)",
+        "rgb": "rgb(166, 0, 111)",
+        "hex": "#a6006f"
+      },
+      {
+        "name": "Elderberry",
+        "nameI18N": "Elderberry",
+        "hsv": "hsv(320, 100%, 35%)",
+        "rgb": "rgb(89, 0, 60)",
+        "hex": "#59003c"
+      }
+    ],
+    "tints": [
+      {
+        "name": "Pink",
+        "nameI18N": "Pink",
+        "hsv": "hsv(320, 50%, 100%)",
+        "rgb": "rgb(255, 128, 213)",
+        "hex": "#ff80d5"
+      },
+      {
+        "name": "Light Pink",
+        "nameI18N": "Light Pink",
+        "hsv": "hsv(320, 22%, 100%)",
+        "rgb": "rgb(255, 199, 236)",
+        "hex": "#ffc7ec"
+      }
+    ]
+  },
+  "333": {
+    "identifier": "Tertiary Color",
+    "colorFamily": "Red Plum",
+    "colorFamilyI18N": "Red Plum",
+    "representative": [
+      {
+        "name": "Dragon Fruit",
+        "nameI18N": "Dragon Fruit",
+        "hsv": "hsv(333, 100%, 100%)",
+        "rgb": "rgb(255, 0, 115)",
+        "hex": "#ff0073"
+      }
+    ],
+    "shades": [
+      {
+        "name": "Chinese Straw-Berry",
+        "nameI18N": "Chinese Straw-Berry",
+        "hsv": "hsv(333, 100%, 65%)",
+        "rgb": "rgb(166, 0, 75)",
+        "hex": "#a6004b"
+      },
+      {
+        "name": "Red Plum",
+        "nameI18N": "Red Plum",
+        "hsv": "hsv(333, 100%, 35%)",
+        "rgb": "rgb(89, 0, 40)",
+        "hex": "#590028"
+      }
+    ],
+    "tints": [
+      {
+        "name": "Pink Hydrangea",
+        "nameI18N": "Pink Hydrangea",
+        "hsv": "hsv(333, 50%, 100%)",
+        "rgb": "rgb(255, 128, 185)",
+        "hex": "#ff80b9"
+      },
+      {
+        "name": "Baby Pink",
+        "nameI18N": "Baby Pink",
+        "hsv": "hsv(333, 22%, 100%)",
+        "rgb": "rgb(255, 199, 224)",
+        "hex": "#ffc7e0"
+      }
+    ]
+  }
+}
