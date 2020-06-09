@@ -316,6 +316,20 @@ class ColorHandler {
         return colors;
     }
 
+    getAllRepresentativeColors() {
+        let martianColors = this.getMartianColors();
+        let representatives = []
+
+        for(const [key, value] of Object.entries(martianColors)) {
+            if(value.achromatic) {
+                representatives = representatives.concat(value.achromatic);
+            }
+            representatives = representatives.concat(value.representative);
+        }
+
+        return representatives;
+    }
+
     /**
      * Gibt alle warmen Farben aus dem Martian-Color-Farbrads zurück.
      * @returns {[]} --> Array, welche alle warmen Farben enthält

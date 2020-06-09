@@ -1,54 +1,47 @@
 import { StyleSheet } from 'react-native';
 
 const colors = {
-    white: {
-
-    },
-    dark: {
-        primaryColor: '#2b3940',
-        secondaryColor: '#ffffff'
-    }
-}
-
-const defaults = {
-    white: {
-
-    },
-    dark: {
-        button: {
-            width: '60%',
-            alignItems: 'center',
-            padding: 10,
-            buttonBackGroundColor:  colors.dark.primaryColor,
-            borderWidth: 1,
-            borderColor: colors.dark.secondaryColor,
-            borderRadius: 10
-        },
-        text: {
-            color: colors.dark.secondaryColor,
-            fontSize: 16,
-            fontWeight: 'bold',
-            fontFamily: 'Roboto'
-        }
-    }
+    primaryColor: '#2b3940',
+    secondaryColor: '#ffffff'
 }
 
 const styles = StyleSheet.create({
-    commonButton: {
-        alignItems: defaults.dark.button.alignItems,
-        width: defaults.dark.button.width,
-        padding: defaults.dark.button.padding,
-        backgroundColor: defaults.dark.button.buttonBackGroundColor,
+    commonContainer: {
+        flex: 1,
+        backgroundColor: '#2b3940',
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderColor: 'black',
 
-        borderWidth: defaults.dark.button.borderWidth,
-        borderColor: defaults.dark.button.borderColor,
-        borderRadius: defaults.dark.button.borderRadius
+        paddingTop: 25
+    },
+    commonButton: {
+        width: '40%',
+        alignItems: 'center',
+        padding: 10,
+        backgroundColor:  colors.primaryColor,
+        borderWidth: 1,
+        borderColor: colors.secondaryColor,
+        borderRadius: 10,
+        marginLeft: 10
     },
     commonText: {
-        color: defaults.dark.text.color,
-        fontSize: defaults.dark.text.fontSize,
-        fontWeight: defaults.dark.text.fontWeight,
-        fontFamily: defaults.dark.text.fontFamily
+        color: colors.secondaryColor,
+        fontSize: 16,
+        fontWeight: 'bold',
+        fontFamily: 'Roboto'
+    },
+    commonTitle: {
+        color: '#f5f6f7',
+        fontSize: 32,
+        fontWeight: 'bold',
+        fontFamily: 'Roboto'
+    },
+    commonSquare: {
+        width: 50,
+        height: 50,
+        marginRight: 25,
+        marginBottom: 25
     }
 })
 

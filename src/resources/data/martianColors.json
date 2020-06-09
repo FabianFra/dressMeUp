@@ -57,28 +57,28 @@
         "nameI18N": "White",
         "hsv": "hsv(0, 100%, 100%)",
         "rgb": "rgb(255, 0, 0)",
-        "hex": "#ff0000"
+        "hex": "#ffffff"
       },
       {
         "name": "Gray",
         "nameI18N": "Gray",
         "hsv": "hsv(0, 100%, 50%)",
         "rgb": "rgb(128, 0, 0)",
-        "hex": "#800000"
+        "hex": "#808080"
       },
       {
         "name": "Dark Gray",
         "nameI18N": "Dark Gray",
         "hsv": "hsv(0, 100%, 35%)",
         "rgb": "rgb(89, 0, 0)",
-        "hex": "#590000"
+        "hex": "#595959"
       },
       {
         "name": "Light Gray",
         "nameI18N": "Light Gray",
         "hsv": "hsv(0, 100%, 65%)",
         "rgb": "rgb(166, 0, 0)",
-        "hex": "#a60000"
+        "hex": "#a6a6a6"
       }
     ]
   },
