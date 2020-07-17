@@ -320,11 +320,11 @@ class ColorHandler {
         let martianColors = this.getMartianColors();
         let representatives = []
 
-        for(const [key, value] of Object.entries(martianColors)) {
-            if(value.achromatic) {
-                representatives = representatives.concat(value.achromatic);
+        for(let color of Object.values(martianColors)) {
+            if(color.achromatic) {
+                representatives = representatives.concat(color.achromatic);
             }
-            representatives = representatives.concat(value.representative);
+            representatives = representatives.concat(color.representative);
         }
 
         return representatives;

@@ -1,0 +1,5546 @@
+[
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Blond",
+      "Hellblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Blond",
+      "Hellblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Blond",
+      "Hellblond",
+      "eher Beige",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Blond",
+      "Hellblond",
+      "eher Beige",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Blond",
+      "Aschblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Blond",
+      "Aschblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Blond",
+      "Aschblond",
+      "eher Beige",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Blond",
+      "Aschblond",
+      "eher Beige",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Blond",
+      "Goldblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Blond",
+      "Goldblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Blond",
+      "Goldblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Blond",
+      "Goldblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Blond",
+      "Rotblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Blond",
+      "Rotblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Blond",
+      "Rotblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Blond",
+      "Rotblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Rot",
+      "Reines Rot",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Rot",
+      "Reines Rot",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Rot",
+      "Reines Rot",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Rot",
+      "Reines Rot",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Rot",
+      "Rotblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Rot",
+      "Rotblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Rot",
+      "Rotblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Rot",
+      "Rotblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Rot",
+      "Kupfer",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Rot",
+      "Kupfer",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Rot",
+      "Kupfer",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Rot",
+      "Kupfer",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Braun",
+      "Goldbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Braun",
+      "Goldbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Braun",
+      "Goldbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Braun",
+      "Goldbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Braun",
+      "Hellbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Braun",
+      "Hellbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Braun",
+      "Hellbraun",
+      "eher Beige",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Braun",
+      "Hellbraun",
+      "eher Beige",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Braun",
+      "Rotbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Braun",
+      "Rotbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Braun",
+      "Rotbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Braun",
+      "Rotbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Braun",
+      "Schwarzbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Braun",
+      "Schwarzbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Braun",
+      "Schwarzbraun",
+      "eher Beige",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Braun",
+      "Schwarzbraun",
+      "eher Beige",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Schwarz",
+      "Schwarz",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Schwarz",
+      "Schwarz",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Schwarz",
+      "Schwarz",
+      "eher Beige",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Schwarz",
+      "Schwarz",
+      "eher Beige",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Beige",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Beige",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Reines Blau",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Blond",
+      "Hellblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Blond",
+      "Hellblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Blond",
+      "Hellblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Blond",
+      "Hellblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Blond",
+      "Aschblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Blond",
+      "Aschblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Blond",
+      "Aschblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Blond",
+      "Aschblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Blond",
+      "Goldblond",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Blond",
+      "Goldblond",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Blond",
+      "Goldblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Blond",
+      "Goldblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Blond",
+      "Rotblond",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Blond",
+      "Rotblond",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Blond",
+      "Rotblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Blond",
+      "Rotblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Rot",
+      "Reines Rot",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Rot",
+      "Reines Rot",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Rot",
+      "Reines Rot",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Rot",
+      "Reines Rot",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Rot",
+      "Rotblond",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Rot",
+      "Rotblond",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Rot",
+      "Rotblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Rot",
+      "Rotblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Rot",
+      "Kupfer",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Rot",
+      "Kupfer",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Rot",
+      "Kupfer",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Rot",
+      "Kupfer",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Braun",
+      "Goldbraun",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Braun",
+      "Goldbraun",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Braun",
+      "Goldbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Braun",
+      "Goldbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Braun",
+      "Hellbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Braun",
+      "Hellbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Braun",
+      "Hellbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Braun",
+      "Hellbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Braun",
+      "Rotbraun",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Braun",
+      "Rotbraun",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Braun",
+      "Rotbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Braun",
+      "Rotbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Braun",
+      "Schwarzbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Braun",
+      "Schwarzbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Braun",
+      "Schwarzbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Braun",
+      "Schwarzbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Schwarz",
+      "Schwarz",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Schwarz",
+      "Schwarz",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Schwarz",
+      "Schwarz",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Schwarz",
+      "Schwarz",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrün",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Blond",
+      "Hellblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Blond",
+      "Hellblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Blond",
+      "Hellblond",
+      "eher Beige",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Blond",
+      "Hellblond",
+      "eher Beige",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Blond",
+      "Aschblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Blond",
+      "Aschblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Blond",
+      "Aschblond",
+      "eher Beige",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Blond",
+      "Aschblond",
+      "eher Beige",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Blond",
+      "Goldblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Blond",
+      "Goldblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Blond",
+      "Goldblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Blond",
+      "Goldblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Blond",
+      "Rotblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Blond",
+      "Rotblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Blond",
+      "Rotblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Blond",
+      "Rotblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Rot",
+      "Reines Rot",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Rot",
+      "Reines Rot",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Rot",
+      "Reines Rot",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Rot",
+      "Reines Rot",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Rot",
+      "Rotblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Rot",
+      "Rotblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Rot",
+      "Rotblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Rot",
+      "Rotblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Rot",
+      "Kupfer",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Rot",
+      "Kupfer",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Rot",
+      "Kupfer",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Rot",
+      "Kupfer",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Braun",
+      "Goldbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Braun",
+      "Goldbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Braun",
+      "Goldbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Braun",
+      "Goldbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Braun",
+      "Hellbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Braun",
+      "Hellbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Braun",
+      "Hellbraun",
+      "eher Beige",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Braun",
+      "Hellbraun",
+      "eher Beige",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Braun",
+      "Rotbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Braun",
+      "Rotbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Braun",
+      "Rotbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Braun",
+      "Rotbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Braun",
+      "Schwarzbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Braun",
+      "Schwarzbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Braun",
+      "Schwarzbraun",
+      "eher Beige",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Braun",
+      "Schwarzbraun",
+      "eher Beige",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Schwarz",
+      "Schwarz",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Schwarz",
+      "Schwarz",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Schwarz",
+      "Schwarz",
+      "eher Beige",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Schwarz",
+      "Schwarz",
+      "eher Beige",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Beige",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Beige",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Blau",
+      "Blaugrau",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Blond",
+      "Hellblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Blond",
+      "Hellblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Blond",
+      "Hellblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Blond",
+      "Hellblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Blond",
+      "Aschblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Blond",
+      "Aschblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Blond",
+      "Aschblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Blond",
+      "Aschblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Blond",
+      "Goldblond",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Blond",
+      "Goldblond",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Blond",
+      "Goldblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Blond",
+      "Goldblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Blond",
+      "Rotblond",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Blond",
+      "Rotblond",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Blond",
+      "Rotblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Blond",
+      "Rotblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Rot",
+      "Reines Rot",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Rot",
+      "Reines Rot",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Rot",
+      "Reines Rot",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Rot",
+      "Reines Rot",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Rot",
+      "Rotblond",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Rot",
+      "Rotblond",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Rot",
+      "Rotblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Rot",
+      "Rotblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Rot",
+      "Kupfer",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Rot",
+      "Kupfer",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Rot",
+      "Kupfer",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Rot",
+      "Kupfer",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Braun",
+      "Goldbraun",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Braun",
+      "Goldbraun",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Braun",
+      "Goldbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Braun",
+      "Goldbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Braun",
+      "Hellbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Braun",
+      "Hellbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Braun",
+      "Hellbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Braun",
+      "Hellbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Braun",
+      "Rotbraun",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Braun",
+      "Rotbraun",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Braun",
+      "Rotbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Braun",
+      "Rotbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Braun",
+      "Schwarzbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Braun",
+      "Schwarzbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Braun",
+      "Schwarzbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Braun",
+      "Schwarzbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Schwarz",
+      "Schwarz",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Schwarz",
+      "Schwarz",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Schwarz",
+      "Schwarz",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Schwarz",
+      "Schwarz",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Reines Grün",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Blond",
+      "Hellblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Blond",
+      "Hellblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Blond",
+      "Hellblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Blond",
+      "Hellblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Blond",
+      "Aschblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Blond",
+      "Aschblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Blond",
+      "Aschblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Blond",
+      "Aschblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Blond",
+      "Goldblond",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Blond",
+      "Goldblond",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Blond",
+      "Goldblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Blond",
+      "Goldblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Blond",
+      "Rotblond",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Blond",
+      "Rotblond",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Blond",
+      "Rotblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Blond",
+      "Rotblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Rot",
+      "Reines Rot",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Rot",
+      "Reines Rot",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Rot",
+      "Reines Rot",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Rot",
+      "Reines Rot",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Rot",
+      "Rotblond",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Rot",
+      "Rotblond",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Rot",
+      "Rotblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Rot",
+      "Rotblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Rot",
+      "Kupfer",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Rot",
+      "Kupfer",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Rot",
+      "Kupfer",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Rot",
+      "Kupfer",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Braun",
+      "Goldbraun",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Braun",
+      "Goldbraun",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Braun",
+      "Goldbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Braun",
+      "Goldbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Braun",
+      "Hellbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Braun",
+      "Hellbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Braun",
+      "Hellbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Braun",
+      "Hellbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Braun",
+      "Rotbraun",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Braun",
+      "Rotbraun",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Braun",
+      "Rotbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Braun",
+      "Rotbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Braun",
+      "Schwarzbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Braun",
+      "Schwarzbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Braun",
+      "Schwarzbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Braun",
+      "Schwarzbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Schwarz",
+      "Schwarz",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Schwarz",
+      "Schwarz",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Schwarz",
+      "Schwarz",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Schwarz",
+      "Schwarz",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grünbraun",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Blond",
+      "Hellblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Blond",
+      "Hellblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Blond",
+      "Hellblond",
+      "eher Beige",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Blond",
+      "Hellblond",
+      "eher Beige",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Blond",
+      "Aschblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Blond",
+      "Aschblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Blond",
+      "Aschblond",
+      "eher Beige",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Blond",
+      "Aschblond",
+      "eher Beige",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Blond",
+      "Goldblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Blond",
+      "Goldblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Blond",
+      "Goldblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Blond",
+      "Goldblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Blond",
+      "Rotblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Blond",
+      "Rotblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Blond",
+      "Rotblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Blond",
+      "Rotblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Rot",
+      "Reines Rot",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Rot",
+      "Reines Rot",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Rot",
+      "Reines Rot",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Rot",
+      "Reines Rot",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Rot",
+      "Rotblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Rot",
+      "Rotblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Rot",
+      "Rotblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Rot",
+      "Rotblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Rot",
+      "Kupfer",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Rot",
+      "Kupfer",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Rot",
+      "Kupfer",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Rot",
+      "Kupfer",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Braun",
+      "Goldbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Braun",
+      "Goldbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Braun",
+      "Goldbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Braun",
+      "Goldbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Braun",
+      "Hellbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Braun",
+      "Hellbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Braun",
+      "Hellbraun",
+      "eher Beige",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Braun",
+      "Hellbraun",
+      "eher Beige",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Braun",
+      "Rotbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Braun",
+      "Rotbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Braun",
+      "Rotbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Braun",
+      "Rotbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Braun",
+      "Schwarzbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Braun",
+      "Schwarzbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Braun",
+      "Schwarzbraun",
+      "eher Beige",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Braun",
+      "Schwarzbraun",
+      "eher Beige",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Schwarz",
+      "Schwarz",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Schwarz",
+      "Schwarz",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Schwarz",
+      "Schwarz",
+      "eher Beige",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Schwarz",
+      "Schwarz",
+      "eher Beige",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Beige",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Beige",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Grün",
+      "Grüngrau",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Blond",
+      "Hellblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Blond",
+      "Hellblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Blond",
+      "Hellblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Blond",
+      "Hellblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Blond",
+      "Aschblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Blond",
+      "Aschblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Blond",
+      "Aschblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Blond",
+      "Aschblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Blond",
+      "Goldblond",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Blond",
+      "Goldblond",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Blond",
+      "Goldblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Blond",
+      "Goldblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Blond",
+      "Rotblond",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Blond",
+      "Rotblond",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Blond",
+      "Rotblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Blond",
+      "Rotblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Rot",
+      "Reines Rot",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Rot",
+      "Reines Rot",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Rot",
+      "Reines Rot",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Rot",
+      "Reines Rot",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Rot",
+      "Rotblond",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Rot",
+      "Rotblond",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Rot",
+      "Rotblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Rot",
+      "Rotblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Rot",
+      "Kupfer",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Rot",
+      "Kupfer",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Rot",
+      "Kupfer",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Rot",
+      "Kupfer",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Braun",
+      "Goldbraun",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Braun",
+      "Goldbraun",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Braun",
+      "Goldbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Braun",
+      "Goldbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Braun",
+      "Hellbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Braun",
+      "Hellbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Braun",
+      "Hellbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Braun",
+      "Hellbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Braun",
+      "Rotbraun",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Braun",
+      "Rotbraun",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Braun",
+      "Rotbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Braun",
+      "Rotbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Braun",
+      "Schwarzbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Braun",
+      "Schwarzbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Braun",
+      "Schwarzbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Braun",
+      "Schwarzbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Schwarz",
+      "Schwarz",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Schwarz",
+      "Schwarz",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Schwarz",
+      "Schwarz",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Schwarz",
+      "Schwarz",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Reines Braun",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Blond",
+      "Hellblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Blond",
+      "Hellblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Blond",
+      "Hellblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Blond",
+      "Hellblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Blond",
+      "Aschblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Blond",
+      "Aschblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Blond",
+      "Aschblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Blond",
+      "Aschblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Blond",
+      "Goldblond",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Blond",
+      "Goldblond",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Blond",
+      "Goldblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Blond",
+      "Goldblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Blond",
+      "Rotblond",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Blond",
+      "Rotblond",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Blond",
+      "Rotblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Blond",
+      "Rotblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Rot",
+      "Reines Rot",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Rot",
+      "Reines Rot",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Rot",
+      "Reines Rot",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Rot",
+      "Reines Rot",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Rot",
+      "Rotblond",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Rot",
+      "Rotblond",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Rot",
+      "Rotblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Rot",
+      "Rotblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Rot",
+      "Kupfer",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Rot",
+      "Kupfer",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Rot",
+      "Kupfer",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Rot",
+      "Kupfer",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Braun",
+      "Goldbraun",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Braun",
+      "Goldbraun",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Braun",
+      "Goldbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Braun",
+      "Goldbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Braun",
+      "Hellbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Braun",
+      "Hellbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Braun",
+      "Hellbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Braun",
+      "Hellbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Braun",
+      "Rotbraun",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Braun",
+      "Rotbraun",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Braun",
+      "Rotbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Braun",
+      "Rotbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Braun",
+      "Schwarzbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Braun",
+      "Schwarzbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Braun",
+      "Schwarzbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Braun",
+      "Schwarzbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Schwarz",
+      "Schwarz",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Schwarz",
+      "Schwarz",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Schwarz",
+      "Schwarz",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Schwarz",
+      "Schwarz",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Rosig",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Rosig",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Braungrün",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Blond",
+      "Hellblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Blond",
+      "Hellblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Blond",
+      "Hellblond",
+      "eher Beige",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Blond",
+      "Hellblond",
+      "eher Beige",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Blond",
+      "Aschblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Blond",
+      "Aschblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Blond",
+      "Aschblond",
+      "eher Beige",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Blond",
+      "Aschblond",
+      "eher Beige",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Blond",
+      "Goldblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Blond",
+      "Goldblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Blond",
+      "Goldblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Blond",
+      "Goldblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Blond",
+      "Rotblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Blond",
+      "Rotblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Blond",
+      "Rotblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Blond",
+      "Rotblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Rot",
+      "Reines Rot",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Rot",
+      "Reines Rot",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Rot",
+      "Reines Rot",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Rot",
+      "Reines Rot",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Rot",
+      "Rotblond",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Rot",
+      "Rotblond",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Rot",
+      "Rotblond",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Rot",
+      "Rotblond",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Rot",
+      "Kupfer",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Rot",
+      "Kupfer",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Rot",
+      "Kupfer",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Rot",
+      "Kupfer",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Braun",
+      "Goldbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Braun",
+      "Goldbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Braun",
+      "Goldbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Braun",
+      "Goldbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Braun",
+      "Hellbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Braun",
+      "Hellbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Braun",
+      "Hellbraun",
+      "eher Beige",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Braun",
+      "Hellbraun",
+      "eher Beige",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Braun",
+      "Rotbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Braun",
+      "Rotbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Braun",
+      "Rotbraun",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Braun",
+      "Rotbraun",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Braun",
+      "Schwarzbraun",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Braun",
+      "Schwarzbraun",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Braun",
+      "Schwarzbraun",
+      "eher Beige",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Braun",
+      "Schwarzbraun",
+      "eher Beige",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Schwarz",
+      "Schwarz",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Schwarz",
+      "Schwarz",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Schwarz",
+      "Schwarz",
+      "eher Beige",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Schwarz",
+      "Schwarz",
+      "eher Beige",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Beige",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Schwarz",
+      "Blauschwarz",
+      "eher Beige",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "sommertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Rosig",
+      "Haut wird braun mit Sonnenbrand"
+    ]
+  },
+  {
+    "type": "wintertyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Rosig",
+      "Haut wird braun ohne Sonnenbrand"
+    ]
+  },
+  {
+    "type": "frühlingstyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Beige",
+      "Schnell braun mit goldgelber Bräunung"
+    ]
+  },
+  {
+    "type": "herbsttyp",
+    "params": [
+      "Braun",
+      "Schwarzbraun",
+      "Schwarz",
+      "Braunschwarz",
+      "eher Beige",
+      "Bräunt fast nicht neigt zu Sommersprossen"
+    ]
+  }
+]

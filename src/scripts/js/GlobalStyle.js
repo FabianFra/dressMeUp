@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
         width: '40%',
         alignItems: 'center',
         padding: 10,
-        backgroundColor:  colors.primaryColor,
+        backgroundColor: colors.primaryColor,
         borderWidth: 1,
         borderColor: colors.secondaryColor,
         borderRadius: 10,
@@ -35,13 +35,34 @@ const styles = StyleSheet.create({
         color: '#f5f6f7',
         fontSize: 32,
         fontWeight: 'bold',
-        fontFamily: 'Roboto'
+        fontFamily: 'Roboto',
+        textAlign: 'center',
+        marginLeft: 10,
+        marginRight: 10
     },
     commonSquare: {
         width: 50,
         height: 50,
         marginRight: 25,
         marginBottom: 25
+    },
+    commonModal: {
+        backgroundColor: '#2b3940',
+        padding: 10,
+        height: '100%',
+        width: '100%'
+    },
+
+    commonShadow: {
+        shadowColor: "#000000",
+        shadowOffset: {
+            width: 0,
+            height: 5,
+        },
+        shadowOpacity: 0.34,
+        shadowRadius: 6.27,
+
+        elevation: 10
     }
 })
 
