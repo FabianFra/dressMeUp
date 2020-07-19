@@ -95,8 +95,8 @@ class Test123 {
      * params at index 5 --> Zusätzliche Informationen
      * @param answers
      */
-    getSeasonTypeForParams(answers) {
-        let skinTone = answers[4]
+    static getSeasonTypeForParams(answers) {
+        let skinTone = answers[5]
         let seasonType = null;
 
         switch(skinTone) {

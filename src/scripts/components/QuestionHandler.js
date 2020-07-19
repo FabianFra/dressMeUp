@@ -19,8 +19,38 @@ export default class QuestionHandler extends Component {
         let answers = this.state.answers;
 
         return (
-            <Question question={question} answers={answers} onSubmit={this.submitAnswer}></Question>
+            <Modal animationType={'slide'} visible={this.props.showQuestions} onRequestClose={() => this.handleBackButtonsPress()}>
+                <Question question={question} answers={answers} onSubmit={this.submitAnswer}></Question>
+            </Modal>
         )
+    }
+
+    handleBackButtonsPress = () => {
+        let questionIndex = this.state.questionIndex;
+
+        if(questionIndex === 0) {
+            this.props.onReturn();
+        } else {
+            let question = this.getCurrentQuestion();
+            this.state.questionIndex--;
+            let questionIndex = this.state.questionIndex;
+
+            if(questionIndex === 0) {
+                this.state.answers = [];
+            } else {
+                if(question.type.toUpperCase() === "SELECT_SEASON_TYPE") {
+                    this.state.answers = this.state.answers.slice(0, questionIndex + 1);
+                } else {
+                    this.state.answers = this.state.answers.slice(0, 0 - questionIndex);
+                }
+            }
+
+            this.refreshView();
+        }
+    }
+
+    refreshView = () => {
+        this.setState(this.state);
     }
 
     initializeState = () => {
@@ -36,10 +66,9 @@ export default class QuestionHandler extends Component {
         this.handleSubmit(answer);
 
         if(this.state.questionIndex < this.state.questions.length) {
-            this.setState(this.state);
+            this.refreshView();
         } else {
-            console.log(this.state.answers);
-            this.props.onComplete();
+            this.props.onComplete(this.state.answers);
         }
     }
 
@@ -68,6 +97,7 @@ class Question extends Component {
         this.state = {
             showModal: false,
             modalElements: [],
+            modalTitle: "",
 
             answers: [],
             selectedElements: []
@@ -183,7 +213,6 @@ class Question extends Component {
 
         if(question.id === "2") {
             options = Test123.getSelectableForSkinTone(this.props.answers);
-            console.log("Options " + options)
         }
 
         return (
@@ -200,10 +229,10 @@ class Question extends Component {
                     </TouchableOpacity>
                 }>
                 </FlatList>
-                <Modal visible={this.state.showModal} animationType={'fade'}>
+                <Modal visible={this.state.showModal} animationType={'fade'} onRequestClose={() => this.handleBackButtonPress()}>
                     <View style={this.styles.allContainer}>
                         <View>
-                            <Text style={GlobalStyle.commonTitle}>Wähle den Unterton</Text>
+                            <Text style={GlobalStyle.commonTitle}>{this.state.modalTitle}</Text>
                         </View>
                         <FlatList keyExtractor={(item, index) => item.hex} numColumns={2} data={this.state.modalElements}
                                   contentContainerStyle={this.styles.test123} renderItem={itemData =>
@@ -243,6 +272,12 @@ class Question extends Component {
         )
     }
 
+
+    handleBackButtonPress = () => {
+        this.state.showModal = false;
+        this.state.answers.pop();
+        this.setState(this.state);
+    }
 
     // Convenience methods
 
@@ -305,12 +340,32 @@ class Question extends Component {
         if(selectedItem.options) {
             let colorSpecifications = this.getColorsWithText(selectedItem.options);
             this.state.modalElements = colorSpecifications;
+            this.state.modalTitle = this.getTitleForModal(selectedItem.key);
             this.state.showModal = true;
         }
 
         this.state.answers.push(selectedItem.value);
 
         this.setState(this.state);
+    }
+
+    getTitleForModal = (value) => {
+        let type = this.props.question.type.toUpperCase();
+        let modalTitle = this.props.question.modalTitle;
+
+        switch (type) {
+            case "SELECT_SEASON_TYPE":
+                if(typeof modalTitle === "undefined") {
+                    modalTitle = this.props.question.title;
+                } else {
+                    modalTitle = modalTitle.replace("%s", value);
+                }
+                break;
+            default:
+                modalTitle = "No title assigned!";
+        }
+
+        return modalTitle
     }
 
 }

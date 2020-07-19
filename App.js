@@ -1,33 +1,50 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { StyleSheet, View, Text, TouchableOpacity, Button } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-
 import AnimatedCircle from './src/scripts/components/AnimatedCircle';
 import GlobalStyle from "./src/scripts/js/GlobalStyle";
 import DatabaseHandler from "./src/scripts/js/DatabaseHandler";
+import {navigationRef} from "./src/scripts/js/RootNavigation";
 
 import CreateUserView from "./src/scripts/views/CreateUserView";
 
-export default function App() {
+export default class App extends Component{
 
-    const StartScreen = ({navigation}) => {
+    StartScreen = ({navigation}) => {
         return (
-            <View style={styles.container}>
+            <View style={GlobalStyle.commonContainer}>
                 <View>
-                    <Text style={styles.title}>Dress me up!</Text>
+                    <Text style={GlobalStyle.commonTitle}>Dress me up!</Text>
                 </View>
                 <View>
                     <AnimatedCircle></AnimatedCircle>
                 </View>
-                <TouchableOpacity style={GlobalStyle.commonButton} onPress={() => handleNavigation(navigation)}>
+                <TouchableOpacity style={GlobalStyle.commonButton} onPress={() => this.handleNavigation(navigation)}>
                     <Text style={GlobalStyle.commonText}>Start now!</Text>
                 </TouchableOpacity>
             </View>
         )
     }
-    const handleNavigation = async (navigation) => {
+
+    HomeScreen = ({navigation}) => {
+        return (
+            <View style={GlobalStyle.commonContainer}>
+                <View>
+                    <Text style={GlobalStyle.commonTitle}>Home Screen!</Text>
+                </View>
+            </View>
+        )
+    }
+
+    CreateUserScreen = () => {
+        return (
+            <CreateUserView></CreateUserView>
+        )
+    }
+
+    handleNavigation = async (navigation) => {
         await DatabaseHandler.getData("userData").then(data => {
             if(data === null) {
                 console.log("Navigate to create user profile")
@@ -38,27 +55,20 @@ export default function App() {
             }
         })
     }
-    const HomeScreen = ({navigation}) => {
+
+    render = () => {
+        let Stack = createStackNavigator();
+
         return (
-            <View style={styles.container}>
-                <View>
-                    <Text style={styles.title}>Build me!</Text>
-                </View>
-            </View>
-        )
+            <NavigationContainer ref={navigationRef}>
+                <Stack.Navigator screenOptions={{headerShown: false}}>
+                    <Stack.Screen name={'StartScreen'} component={this.StartScreen}/>
+                    <Stack.Screen name={'HomeScreen'} component={this.HomeScreen}/>
+                    <Stack.Screen name={'CreateUserView'} component={this.CreateUserScreen}/>
+                </Stack.Navigator>
+            </NavigationContainer>
+        );
     }
-
-    const Stack = createStackNavigator();
-
-    return (
-        <NavigationContainer>
-            <Stack.Navigator screenOptions={{headerShown: false}}>
-                <Stack.Screen name={'StartScreen'} component={StartScreen}/>
-                <Stack.Screen name={'HomeScreen'} component={HomeScreen}/>
-                <Stack.Screen name={'CreateUserView'} component={CreateUserView}/>
-            </Stack.Navigator>
-        </NavigationContainer>
-    );
 
 }
 
