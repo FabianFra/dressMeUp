@@ -12,8 +12,6 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         borderColor: 'black',
-
-        paddingTop: 25
     },
     commonButton: {
         width: '40%',
@@ -37,8 +35,8 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         fontFamily: 'Roboto',
         textAlign: 'center',
-        marginLeft: 10,
-        marginRight: 10
+
+        padding: 10
     },
     commonSquare: {
         width: 50,

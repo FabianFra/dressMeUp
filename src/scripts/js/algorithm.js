@@ -10,7 +10,7 @@ class Test123 {
      * params at index 4 --> Hautton
      * @param answers
      */
-    getSelectableForSkinTone(answers) {
+    static getSelectableForSkinTone(answers) {
         let firstEyeColors = ["0", "2", "5", "8"];
         let secondEyeColors = ["1", "3", "4", "6", "7"]
 
@@ -86,23 +86,35 @@ class Test123 {
         return selectables;
     }
 
+    /**
+     * params at index 0 --> (Grund-) Augenfarbe
+     * params at index 1 --> (Spezifikation) Augenfarbe
+     * params at index 2 --> (Grund-) Haarfarbe
+     * params at index 3 --> (Spezifikation) Haarfarbe
+     * params at index 4 --> Hautton
+     * params at index 5 --> Zusätzliche Informationen
+     * @param answers
+     */
+    getSeasonTypeForParams(answers) {
+        let skinTone = answers[4]
+        let seasonType = null;
 
-    getSeasonTypesForParams(jsonObject) {
-        let counter = 0;
-
-        for (let i = 0; i < jsonObject.length; i++) {
-            let element = jsonObject[i];
-
-            let params = element.params;
-            let selectables = (generateTeintSelectables(params[1].toLowerCase(), params[3].toLowerCase()))
-
-            if (params[4] === "eher Beige" && selectables.includes("Haut wird braun, mit Sonnenbrand")) {
-                console.log("Found element :: " + params);
-                counter++;
-            }
+        switch(skinTone) {
+            case "0":
+                seasonType = "summer";
+                break
+            case "1":
+                seasonType = "winter";
+                break
+            case "2":
+                seasonType = "spring";
+                break
+            case "3":
+                seasonType = "autumn";
+                break
         }
 
-        console.log("Found " + counter);
+        return seasonType;
     }
 
     analyseData(jsonObject, searchString, seasonType) {
