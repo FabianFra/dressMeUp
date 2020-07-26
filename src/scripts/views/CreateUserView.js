@@ -10,7 +10,7 @@ import * as RootNavigation from "../js/RootNavigation"
 import {BackHandler} from "react-native-web";
 
 
-import Test123 from "../js/algorithm";
+import SeasonTypeAlgorithm from "../js/SeasonTypeAlgorithm";
 
 export default class CreateUserView extends Component {
     constructor(props) {
@@ -43,9 +43,8 @@ export default class CreateUserView extends Component {
     }
 
     evaluateAnswers = (answers) => {
-        console.log("Evaluate answers :: " + answers);
-        let seasonType = Test123.getSeasonTypeForParams(answers);
-        console.log("Season type: " + seasonType);
+        let seasonType = SeasonTypeAlgorithm.getSeasonTypeForParams(answers);
+
         let storeObject = this.createStoreObject(answers, seasonType);
 
         DatabaseHandler.storeObject("userData", storeObject).then(() => {

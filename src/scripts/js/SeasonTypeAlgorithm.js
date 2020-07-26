@@ -1,6 +1,6 @@
-let params = ["Blau", "Reines Blau", "Blond", "Hellblond", "eher beige", "Schnell braun mit goldgelber Bräunung"];
+import seasonTypes from '../../resources/data/seasonTypes.json';
 
-class Test123 {
+class SeasonTypeAlgorithm {
 
     /**
      * params at index 0 --> (Grund-) Augenfarbe
@@ -117,6 +117,26 @@ class Test123 {
         return seasonType;
     }
 
+    /**
+     *
+     * @param typeId --> Id of the season type
+     */
+    static getSeasonTypeObject(seasonTypeName) {
+        let seasonTypeObject = {};
+        seasonTypeName = seasonTypeName.toLowerCase();
+
+        for(let i = 0; i < seasonTypes.length; i++) {
+            let examinedObject = seasonTypes[i];
+
+            if(seasonTypeName === examinedObject.name.toLowerCase()) {
+                seasonTypeObject = examinedObject;
+                break;
+            }
+        }
+
+        return seasonTypeObject;
+    }
+
     analyseData(jsonObject, searchString, seasonType) {
         let counter = 0
         let result = {"results": [], "counter": 0};
@@ -137,38 +157,6 @@ class Test123 {
         return result
     }
 
-
-    /**
-     * params at index 0 --> (Grund-) Augenfarbe
-     * params at index 1 --> (Spezifikation) Augenfarbe
-     * params at index 2 --> (Grund-) Haarfarbe
-     * params at index 3 --> (Spezifikation) Haarfarbe
-     * params at index 4 --> Hautton
-     * params at index 5 --> Bräunung + Sonnenbrand/Sommersprossen
-     * @param params
-     */
-    analyseColorType(params) {
-
-    }
-
-    /**
-     *
-     * @param eyeColor
-     * @param hairColor
-     */
-    generateTeintSelectables(eyeColor, hairColor) {
-        let eyeColors = ["reines blau", "blaugrün", "grüngrau", "schwarzbraun"];
-        let hairColors = ["hellblond", "aschblond", "hellbraun", "schwarzbraun", "schwarz", "blauschwarz"];
-        let selectables;
-
-        if (eyeColors.includes(eyeColor) && hairColors.includes(hairColor)) {
-            selectables = ["Haut wird braun, mit Sonnenbrand", "Haut wird braun, ohne Sonnebrand"];
-        } else {
-            selectables = ["Bräunt fast nicht, neigt zu Sommersprossen", "Schnell braun, mit goldgelber Bräunung"]
-        }
-
-        return selectables;
-    }
 }
 
-export default Test123;
+export default SeasonTypeAlgorithm;

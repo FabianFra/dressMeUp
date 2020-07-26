@@ -9,6 +9,7 @@ import DatabaseHandler from "./src/scripts/js/DatabaseHandler";
 import {navigationRef} from "./src/scripts/js/RootNavigation";
 
 import CreateUserView from "./src/scripts/views/CreateUserView";
+import SeasonTypeAlgorithm from "./src/scripts/js/SeasonTypeAlgorithm";
 
 export default class App extends Component{
 
@@ -45,20 +46,37 @@ export default class App extends Component{
     }
 
     handleNavigation = async (navigation) => {
-        await DatabaseHandler.getData("userData").then(data => {
+        await DatabaseHandler.getDataObject("userData").then(data => {
             if(data === null) {
                 console.log("Navigate to create user profile")
                 navigation.navigate('CreateUserView');
             } else {
                 console.log("Navigate to HomeScreen")
+                this.setSeasonType(data);
                 navigation.navigate('HomeScreen')
             }
         })
     }
 
+    /**
+     * Setzt die globale Variable für den Jahreszeittyp des Benutzers
+     * @param data --> userData (Object)
+     */
+    setSeasonType = (data) => {
+        let seasonTypeObject = SeasonTypeAlgorithm.getSeasonTypeObject(data.seasonType);
+
+        if(typeof seasonTypeObject !== "undefined") {
+            global.seasonType = seasonTypeObject;
+        } else {
+            console.error("Couldn't assign the global variable (seasonType) for the current user.");
+        }
+    }
+
     render = () => {
         let Stack = createStackNavigator();
 
+        DatabaseHandler.removeAppsKeys();
+        
         return (
             <NavigationContainer ref={navigationRef}>
                 <Stack.Navigator screenOptions={{headerShown: false}}>

@@ -4,7 +4,7 @@ import {Text, View, TouchableOpacity, FlatList, StyleSheet, Modal} from "react-n
 import GlobalStyle from "../js/GlobalStyle";
 import ColorHandler from "../js/ColorHandler";
 import TinyColor from "../frameworks/TinyColor/tinycolor";
-import Test123 from "../js/algorithm";
+import SeasonTypeAlgorithm from "../js/SeasonTypeAlgorithm";
 
 
 
@@ -129,15 +129,10 @@ class Question extends Component {
 
     createStyleSheet = () => {
         this.styles = StyleSheet.create({
-            modalLayout: {
-                flex: 1,
-                justifyContent: 'center',
-                backgroundColor: '#2b3940',
-            },
-
             colorContainer: {
+                flex: 1,
                 alignItems: 'center',
-                padding: 10
+                justifyContent: 'center'
             },
 
             colorSquare: {
@@ -156,7 +151,8 @@ class Question extends Component {
 
             colorSquareText: {
                 color: 'white',
-                marginBottom: 10
+                margin: 10,
+                textAlign: 'center'
             },
 
             selectButton: {
@@ -173,12 +169,6 @@ class Question extends Component {
             allContainer: {
                 flex: 1,
                 backgroundColor: '#2b3940',
-            },
-
-            test123: {
-                flex: 1,
-                alignItems: 'center',
-                justifyContent: 'center'
             }
 
 
@@ -212,7 +202,7 @@ class Question extends Component {
         let options = question.options;
 
         if(question.id === "2") {
-            options = Test123.getSelectableForSkinTone(this.props.answers);
+            options = SeasonTypeAlgorithm.getSelectableForSkinTone(this.props.answers);
         }
 
         return (
@@ -220,7 +210,7 @@ class Question extends Component {
                 <View>
                     <Text style={GlobalStyle.commonTitle}>{question.title}</Text>
                 </View>
-                <FlatList keyExtractor={(item, index) => item.hex} contentContainerStyle={this.styles.test123}
+                <FlatList keyExtractor={(item, index) => item.hex} contentContainerStyle={this.styles.colorContainer}
                           data={this.getColorsWithText(options)} numColumns={2} renderItem={ itemData =>
                     <TouchableOpacity onPress={() => this.generateModalData(itemData.item.originalInput)} style={[this.styles.colorSquare, itemData.item.squareStyle, GlobalStyle.commonShadow]}>
                         <View style={this.styles.colorSquareContentContainer}>
@@ -235,7 +225,7 @@ class Question extends Component {
                             <Text style={GlobalStyle.commonTitle}>{this.state.modalTitle}</Text>
                         </View>
                         <FlatList keyExtractor={(item, index) => item.hex} numColumns={2} data={this.state.modalElements}
-                                  contentContainerStyle={this.styles.test123} renderItem={itemData =>
+                                  contentContainerStyle={this.styles.colorContainer} renderItem={itemData =>
                             <TouchableOpacity style={[this.styles.colorSquare, itemData.item.squareStyle, GlobalStyle.commonShadow]} onPress={() => { this.state.answers.push(itemData.item.originalInput.value); this.state.showModal = false; this.props.onSubmit(this.state.answers); this.state.answers = [] }}>
                                 <View style={this.styles.colorSquareContentContainer}>
                                     <Text style={[this.styles.colorSquareText, itemData.item.textStyle]}>{itemData.item.originalInput.key}</Text>

@@ -1,0 +1,51 @@
+// Quelle: Ganzheitliche Farbberatun, Karin Kunkel
+
+[
+  {
+    "id": 0,
+    "name": "Frühling",
+    "nameI18N": "Frühling",
+
+    "matchingColors": [
+      "brown", "red", "orange", "yellow", "turquoise", "green",
+      "granny smith", "celery", "chartreuse"
+    ]
+
+  },
+  {
+    "id": 1,
+    "name": "Sommer",
+    "nameI18N": "Sommer",
+
+    "matchingColors": [
+      "pink", "light pink", "baby pink", "pink hydrangea", "dog rose",
+      "brown", "maroon", "pale raspberry", "yellow", "malachite",
+      "brunswick green", "emerald", "light emerald"
+    ]
+
+  },
+  {
+    "id": 2,
+    "name": "Herbst",
+    "nameI18N": "Herbst",
+
+    "matchingColors": [
+      "brown", "dark red", "maroon", "orange", "yellow", "olive",
+      "olive drab", "violet", "dark violet"
+    ]
+
+  },
+  {
+    "id": 3,
+    "name": "Winter",
+    "nameI18N": "Winter",
+
+    "matchingColors": [
+      "red", "dog rose", "light pink", "baby pink", "pink", "pink hydrangea",
+      "dark pink", "dark fruit", "magenta", "yellow", "turquoise", "pale sky blue",
+      "sky blue", "delphinium blue", "dark royal blue", "lilac", "kunzite", "violet",
+      "dark violet", "spectral violet", "dioxazine", "white", "grey", "dark grey", "light grey", "black"
+    ]
+
+  }
+]
