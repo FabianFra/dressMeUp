@@ -2,13 +2,15 @@ import martianColors from '../../resources/data/martianColors.json';
 
 class ColorHandler {
     martianColors = {};
-    hues = []
+    achromaticColors = [];
+    hues = [];
 
     hsvExtractor = /\d+/g;
 
 
     constructor() {
-        this.martianColors = martianColors;
+        this.martianColors = martianColors.martianColors;
+        this.achromaticColors = martianColors.achromaticColors;
         this.hues = Object.keys(this.martianColors);
     }
 
@@ -17,6 +19,10 @@ class ColorHandler {
 
     getMartianColors() {
         return this.martianColors;
+    }
+
+    getAchromaticColors() {
+        return this.achromaticColors;
     }
 
     getHues() {
@@ -261,16 +267,8 @@ class ColorHandler {
      * @param includeAchromatic --> Sollen die achromatischen Farben inkludiert werden
      * @returns {*[]} --> Ein Array aus den Farben des Objekts
      */
-    getColorsByColorObj(colorObj, includeAchromatic) {
-        let allColors;
-
-        if(includeAchromatic) {
-            allColors = [].concat(colorObj.representative, colorObj.tints, colorObj.shades, colorObj.achromatic ? colorObj.achromatic : [])
-        } else {
-            allColors = [].concat(colorObj.representative, colorObj.tints, colorObj.shades);
-        }
-
-        return allColors;
+    getColorsByColorObj(colorObj) {
+        return [].concat(colorObj.representative, colorObj.tints, colorObj.shades);
     }
 
     /**
@@ -308,9 +306,28 @@ class ColorHandler {
         let martianColors = this.getMartianColors();
 
         hues.forEach(hue => {
-            let hueColors = this.getColorsByColorObj(martianColors[hue], includeAchromatic);
+            let hueColors = this.getColorsByColorObj(martianColors[hue]);
 
             colors = colors.concat(hueColors);
+        })
+
+        if(includeAchromatic) {
+            colors = colors.concat(this.getAllAchromaticColors(true));
+        }
+
+        return colors;
+    }
+
+    getAllAchromaticColors(addSpecifications) {
+        let achromaticColors = this.getAchromaticColors();
+        let colors = [];
+
+        achromaticColors.forEach(color => {
+            colors.push(color);
+
+            if(addSpecifications && color.specifications) {
+                colors = colors.concat(color.specifications);
+            }
         })
 
         return colors;
@@ -318,12 +335,9 @@ class ColorHandler {
 
     getAllRepresentativeColors() {
         let martianColors = this.getMartianColors();
-        let representatives = []
+        let representatives = this.getAllAchromaticColors(false);
 
         for(let color of Object.values(martianColors)) {
-            if(color.achromatic) {
-                representatives = representatives.concat(color.achromatic);
-            }
             representatives = representatives.concat(color.representative);
         }
 
@@ -394,24 +408,20 @@ class ColorHandler {
      * Get the color of the martian color wheel with the given hue, saturation and intensity
      *
      * If no color is found the user will be warned and undefined will be returned.
-     * @param colorHsv
+     * @param colorHsv --> Expects: 'hsv(digit, digit, digit)'
      */
     findColorByHsv(hsvString) {
-        let color = undefined;
-        let allColors = this.getAllColors(true);
+        return this.findColorByPropertyValue("hsv", hsvString);
+    }
 
-        for(let element of allColors) {
-            if(element.hsv === hsvString) {
-                color = element;
-                break;
-            }
-        }
-
-        if(typeof color === "undefined") {
-            console.warn(`No color found for ${hsvString}`);
-        }
-
-        return color;
+    /**
+     * Get the color of the martian color wheel with the given hex value
+     *
+     * If no color is found, the user will be warned and undefined will be returned.
+     * @param hexString
+     */
+    findColorByHex(hexString) {
+        return this.findColorByPropertyValue("hex", hexString);
     }
 
     /**
@@ -421,27 +431,31 @@ class ColorHandler {
      * @param colorHsv
      */
     findColorByName(colorName) {
-        let foundColor = undefined;
-        let martianColors = this.getAllColors();
+        return this.findColorByPropertyValue("name", colorName);
+    }
 
-        colorName = colorName.toLowerCase();
+    findColorByPropertyValue(property, value) {
+        let foundColor = undefined;
+        let martianColors = this.getAllColors(true);
+
+        value = value.toLowerCase();
 
         for(let element of martianColors) {
-            if(element.name.toLowerCase() === colorName) {
+            if(element[property].toLowerCase() === value) {
                 foundColor = element;
                 break;
             }
         }
 
         if(typeof foundColor === "undefined") {
-            console.warn("No color found for " + colorName);
+            console.warn(`No color found for property ${property}, with value ${value}`);
         }
 
         return foundColor;
     }
 
     /**
-     * Check wether the two colors are equivalent. The expected format is {'i18N': value, 'hue': value, 'saturation': value, 'intensity': value,}
+     * Check whether the two colors are equivalent.
      * @param colorOne
      * @param colorTwo
      * @returns {boolean|boolean}
@@ -455,7 +469,6 @@ class ColorHandler {
 
         return hsv[0];
     }
-
 }
 
 export default ColorHandler;

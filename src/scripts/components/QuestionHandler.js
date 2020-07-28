@@ -120,8 +120,10 @@ class Question extends Component {
                 return this.generateStandardQuestion(question);
             case "SELECT_SEASON_TYPE":
                 return this.generateSeasonTypeQuestion(question);
-            case "MULTI SELECT":
+            case "MULTI_SELECT":
                 return this.generateMultiSelectQuestion(question);
+            case "MARTIAN_COLOR":
+                return this.generateMartianColorsQuestion(question);
         }
     }
 
@@ -242,22 +244,63 @@ class Question extends Component {
         let colorsWithText = this.getColorsWithText(this.martianColor.getAllRepresentativeColors());
 
         return (
-            <View style={GlobalStyle.commonContainer}>
+            <View style={this.styles.allContainer}>
                 <View>
                     <Text style={GlobalStyle.commonTitle}>{question.title}</Text>
                 </View>
-                <FlatList keyExtractor={(item, index) => item.hex} contentContainerStyle={this.styles.colorContainer}
-                          data={colorsWithText} numColumns={2} renderItem={ itemData =>
-                    <TouchableOpacity onPress={() => this.handleSelectedElements(itemData.item.hex)} style={[this.styles.colorSquare, itemData.item.squareStyle, GlobalStyle.commonShadow]}>
-                        <View style={this.styles.colorSquareContentContainer}>
-                            <Text style={[this.styles.colorSquareText, itemData.item.textStyle]}>{itemData.item.originalInput.name}</Text>
-                        </View>
+                <View style={this.styles.colorContainer}>
+                    <FlatList keyExtractor={(item, index) => item.hex} contentContainerStyle={{alignItems: 'center', padding: 10}}
+                              data={colorsWithText} numColumns={2} renderItem={ itemData =>
+                        <TouchableOpacity onPress={() => this.handleSelectedElements(itemData.item.hex)} style={[this.styles.colorSquare, itemData.item.squareStyle, GlobalStyle.commonShadow]}>
+                            <View style={this.styles.colorSquareContentContainer}>
+                                <Text style={[this.styles.colorSquareText, itemData.item.textStyle]}>{itemData.item.originalInput.name}</Text>
+                            </View>
+                        </TouchableOpacity>
+                    }>
+                    </FlatList>
+                    <TouchableOpacity style={[GlobalStyle.commonButton, {"marginBottom": 15, "width": 300}]} onPress={() => this.props.onSubmit(this.state.selectedElements)}>
+                        <Text style={GlobalStyle.commonText}>Done</Text>
                     </TouchableOpacity>
-                }>
-                </FlatList>
-                <TouchableOpacity style={[GlobalStyle.commonButton, {"marginBottom": 15, "width": 300}]} onPress={() => this.props.onSubmit(this.state.selectedElements)}>
-                    <Text style={GlobalStyle.commonText}>Done</Text>
-                </TouchableOpacity>
+                </View>
+            </View>
+        )
+    }
+
+    generateMartianColorsQuestion = (question) => {
+        let colorsWithText = this.getColorsWithText(this.martianColor.getAllRepresentativeColors());
+
+        return (
+            <View style={this.styles.allContainer}>
+                <View>
+                    <Text style={GlobalStyle.commonTitle}>{question.title}</Text>
+                </View>
+                <View style={this.styles.colorContainer}>
+                    <FlatList keyExtractor={(item, index) => item.hex} contentContainerStyle={{alignItems: 'center', padding: 10}}
+                              data={colorsWithText} numColumns={2} renderItem={ itemData =>
+                        <TouchableOpacity onPress={() => this.getColorSpecifications(itemData.item.originalInput)} style={[this.styles.colorSquare, itemData.item.squareStyle, GlobalStyle.commonShadow]}>
+                            <View style={this.styles.colorSquareContentContainer}>
+                                <Text style={[this.styles.colorSquareText, itemData.item.textStyle]}>{itemData.item.originalInput.name}</Text>
+                            </View>
+                        </TouchableOpacity>
+                    }>
+                    </FlatList>
+                </View>
+
+                <Modal visible={this.state.showModal} animationType={'fade'} onRequestClose={() => this.handleBackButtonPress()}>
+                    <View style={this.styles.allContainer}>
+                        <View>
+                            <Text style={GlobalStyle.commonTitle}>{this.state.modalTitle}</Text>
+                        </View>
+                        <FlatList keyExtractor={(item, index) => item.hex} numColumns={2} data={this.state.colorSpecifications}
+                                  contentContainerStyle={this.styles.colorContainer} renderItem={itemData =>
+                            <TouchableOpacity style={[this.styles.colorSquare, itemData.item.squareStyle, GlobalStyle.commonShadow]} onPress={() => { this.state.answers.push(itemData.item.originalInput.value); this.state.showModal = false; this.props.onSubmit(this.state.answers); this.state.answers = [] }}>
+                                <View style={this.styles.colorSquareContentContainer}>
+                                    <Text style={[this.styles.colorSquareText, itemData.item.textStyle]}>{itemData.item.originalInput.name}</Text>
+                                </View>
+                            </TouchableOpacity>}>
+                        </FlatList>
+                    </View>
+                </Modal>
             </View>
         )
     }
@@ -344,6 +387,7 @@ class Question extends Component {
         let modalTitle = this.props.question.modalTitle;
 
         switch (type) {
+            case "MARTIAN_COLOR":
             case "SELECT_SEASON_TYPE":
                 if(typeof modalTitle === "undefined") {
                     modalTitle = this.props.question.title;
@@ -358,6 +402,30 @@ class Question extends Component {
         return modalTitle
     }
 
+    getColorSpecifications = (color) => {
+        let colorSpecifications = undefined;
+
+        if(color.name === "Black" || color.name === "White") {
+            this.state.showModal = false;
+            this.props.onSubmit(color.hex);
+        } else {
+            if(color.specifications) {
+                colorSpecifications = color.specifications;
+            } else {
+                let hue = this.martianColor.getColorHue(color);
+                let colorObj = this.martianColor.getColorObjByHue(hue);
+                let colors = this.martianColor.getColorsByColorObj(colorObj);
+                let orderedColors = [colors[1], colors[3], colors[2], colors[4], colors[0]]
+                colorSpecifications = orderedColors;
+            }
+
+            this.state.colorSpecifications = this.getColorsWithText(colorSpecifications);
+            this.state.modalTitle = this.getTitleForModal(color.name);
+            this.state.showModal = true;
+        }
+
+        this.setState(this.state);
+    }
 }
 
 //export default function QuestionHandler(props) {
