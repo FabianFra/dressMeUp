@@ -1,0 +1,3 @@
+[submodule "FranksAlogrithmus"]
+	path = FranksAlogrithmus
+	url = https://github.com/FabianFra/FranksAlogrithmus.git
