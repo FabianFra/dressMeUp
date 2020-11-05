@@ -25,61 +25,49 @@ class SeasonTypeAlgorithm {
             selectables = [{
                 "key": "eher Rosig",
                 "value": "0",
-                "hex": "#e8d5ce",
                 "options": [{
                     "key": "Haut wird braun, mit Sonnenbrand",
                     "value": "0",
-                    "hex": "#ffffff"
-                }, {"key": "Haut wird braun, ohne Sonnenbrand", "value": "1", "hex": "#ffffff"}]
+                }, {"key": "Haut wird braun, ohne Sonnenbrand", "value": "1"}]
             }, {
                 "key": "eher Beige",
                 "value": "1",
-                "hex": "#dbbfa3",
                 "options": [{
                     "key": "Haut wird braun, mit Sonnenbrand",
                     "value": "0",
-                    "hex": "#ffffff"
-                }, {"key": "Haut wird braun, ohne Sonnenbrand", "value": "1", "hex": "#ffffff"}]
+                }, {"key": "Haut wird braun, ohne Sonnenbrand", "value": "1"}]
             }];
         } else if (secondEyeColors.includes(eyeColor) && secondHairColors.includes(hairColor)) {
             selectables = [{
                 "key": "eher Rosig",
                 "value": "0",
-                "hex": "#e8d5ce",
                 "options": [{
                     "key": "Schnell braun, mit goldgelber Bräunung",
                     "value": "2",
-                    "hex": "#ffffff"
-                }, {"key": "Bräunt fast nicht, neigt zu Sommersprossen", "value": "3", "hex": "#ffffff"}]
+                }, {"key": "Bräunt fast nicht, neigt zu Sommersprossen", "value": "3"}]
             }, {
                 "key": "eher Beige",
                 "value": "1",
-                "hex": "#dbbfa3",
                 "options": [{
                     "key": "Schnell braun, mit goldgelber Bräunung",
                     "value": "2",
-                    "hex": "#ffffff"
-                }, {"key": "Bräunt fast nicht, neigt zu Sommersprossen", "value": "3", "hex": "#ffffff"}]
+                }, {"key": "Bräunt fast nicht, neigt zu Sommersprossen", "value": "3"}]
             }];
         } else {
             selectables = [{
                 "key": "eher Rosig",
                 "value": "0",
-                "hex": "#e8d5ce",
                 "options": [{
                     "key": "Haut wird braun, mit Sonnenbrand",
                     "value": "0",
-                    "hex": "#ffffff"
-                }, {"key": "Haut wird braun, ohne Sonnenbrand", "value": "1", "hex": "#ffffff"}]
+                }, {"key": "Haut wird braun, ohne Sonnenbrand", "value": "1"}]
             }, {
                 "key": "eher Beige",
                 "value": "1",
-                "hex": "#dbbfa3",
                 "options": [{
                     "key": "Schnell braun, mit goldgelber Bräunung",
                     "value": "2",
-                    "hex": "#ffffff"
-                }, {"key": "Bräunt fast nicht, neigt zu Sommersprossen", "value": "3", "hex": "#ffffff"}]
+                }, {"key": "Bräunt fast nicht, neigt zu Sommersprossen", "value": "3"}]
             }];
         }
 
@@ -96,7 +84,8 @@ class SeasonTypeAlgorithm {
      * @param answers
      */
     static getSeasonTypeForParams(answers) {
-        let skinTone = answers[5]
+        console.log("getSeasonTypeForParams: " + answers);
+        let skinTone = answers["skinColor"][1];
         let seasonType = null;
 
         switch(skinTone) {
