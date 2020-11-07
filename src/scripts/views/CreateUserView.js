@@ -61,22 +61,12 @@ export default class CreateUserView extends Component {
             { id: '2', title: 'Selektiere deine Hautfarbe?', type: 'SELECT_SKIN_TONE', storeAs: 'skinColor' },
             { id: '3', title: 'Welche Farben magst du?', type: 'MARTIAN_COLOR_MULTI_SELECT', storeAs: 'desirableColors'},
             { id: '4', title: 'Welche Farben magst du nicht?', type: 'MARTIAN_COLOR_MULTI_SELECT',  storeAs: 'undesirableColors'}
-
-            // { id: "0", title: 'Möchtest du auffallen?', type: 'STANDARD_DYNAMIC', options: [{"key": "Ja", "value": false}, {"key": "Nein", "value": true}], storeAs: "wantToStandOut"},
-            // { id: "1", title: 'Möchtest du deinen Augen schmeicheln?', type: 'STANDARD_DYNAMIC', options: [{"key": "Ja", "value": false}, {"key": "Nein", "value": true}, {"key": "Mir egal", "value": null}], storeAs: "focusEyeColor"},
-            // { id: "2", title: 'Gesättige- oder Grelle Farben?', type: 'STANDARD_DYNAMIC', options: [{"key": "Gesättigte Farben", "value": false}, {"key": "Grelle Farben", "value": true}, {"key": "Mir egal", "value": null}], storeAs: "preferSaturatedColors"},
-            // { id: "3", title: 'Magst du eher helle- oder dunkle Farben?', type: 'STANDARD_DYNAMIC', options: [{"key": "Helle Farben", "value": false}, {"key": "Dunkle Farben", "value": true}, {"key": "Mir egal", "value": null}], storeAs: "preferLightColors"},
-            // { id: "4", title: 'Welche Farbe haben deine Schuhe?', type: 'MARTIAN_COLOR', storeAs: "shoes"},
-            // { id: "5", title: 'Welche Farbe hat deine Hose?', type: 'MARTIAN_COLOR', storeAs: "trousers"},
-            // { id: "6", title: 'Trägst du eine Jacke?', type: 'STANDARD_DYNAMIC', options: [{"key": "Ja", "value": true}, {"key": "Nein", "value": false}], isConditional: true},
-            // { id: "7", title: 'Welche Farbe hat deine Jacke?', type: 'MARTIAN_COLOR', storeAs: "jacket", skipWhen: false},
-            // { id: "8", title: 'Test?', type: 'STANDARD'}
         ];
 
         return (
             <TouchableOpacity style={GlobalStyle.commonContainer} activeOpacity={0.8} onPress={() => this.setShowQuestions()}>
                 <View>
-                    <Text style={GlobalStyle.commonTitle}>Build me!</Text>
+                    <Text style={GlobalStyle.commonTitle}>Lass uns dein Profil erstellen!</Text>
                 </View>
 
                 <QuestionHandler questions={questions} showQuestions={this.state.showQuestions} onComplete={(answers) => {this.evaluateAnswers(answers)}} onReturn={this.onBackButtonPress}></QuestionHandler>

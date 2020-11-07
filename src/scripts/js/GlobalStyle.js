@@ -6,6 +6,10 @@ const colors = {
 }
 
 const styles = StyleSheet.create({
+    commonAllContainer: {
+        flex: 1,
+        backgroundColor: '#2b3940',
+    },
     commonContainer: {
         flex: 1,
         backgroundColor: '#2b3940',
@@ -21,7 +25,16 @@ const styles = StyleSheet.create({
         borderWidth: 1,
         borderColor: colors.secondaryColor,
         borderRadius: 10,
-        marginLeft: 10
+        marginHorizontal: 10
+    },
+    commonButtonAngled: {
+        width: '40%',
+        height: 33,
+        alignItems: 'center',
+        padding: 10,
+        backgroundColor: colors.primaryColor,
+        borderTopWidth: 1,
+        borderTopColor: colors.secondaryColor,
     },
     commonText: {
         color: colors.secondaryColor,
@@ -35,8 +48,6 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         fontFamily: 'Roboto',
         textAlign: 'center',
-
-        padding: 10
     },
     commonSquare: {
         width: 50,
@@ -50,7 +61,6 @@ const styles = StyleSheet.create({
         height: '100%',
         width: '100%'
     },
-
     commonShadow: {
         shadowColor: "#000000",
         shadowOffset: {
@@ -61,6 +71,61 @@ const styles = StyleSheet.create({
         shadowRadius: 6.27,
 
         elevation: 10
+    },
+
+    disabled: {
+        opacity: 0.5
+    },
+
+    mainMenuContainer: {
+        backgroundColor: colors.primaryColor,
+        flex: 1,
+        justifyContent: "center",
+        flexDirection: "column"
+    },
+
+    mainMenuButton: {
+        backgroundColor: colors.primaryColor,
+        flex: 0.33,
+        width: "100%",
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginTop: 10,
+
+        borderWidth: 1,
+        borderColor: colors.secondaryColor,
+        borderRadius: 10
+    },
+
+    colorContainer: {
+        flex: 1,
+        alignItems: 'center',
+        justifyContent: 'center'
+    },
+
+    colorSquare: {
+        width: 130,
+        height: 130,
+        margin: 10,
+        backgroundColor: 'white',
+        borderRadius: 10
+    },
+
+    colorSquareContentContainer: {
+        flex: 1,
+        justifyContent: 'flex-end',
+        alignItems: 'center'
+    },
+
+    colorSquareText: {
+        color: 'white',
+        margin: 10,
+        textAlign: 'center'
+    },
+
+    submitButton: {
+        marginBottom: 15,
+        width: "100%",
     }
 })
 

@@ -1,4 +1,4 @@
-import seasonTypes from '../../resources/data/seasonTypes.json';
+import seasonTypes from '../../../FranksAlgorithmus/src/resources/seasonTypes.json'
 
 class SeasonTypeAlgorithm {
 
@@ -84,22 +84,21 @@ class SeasonTypeAlgorithm {
      * @param answers
      */
     static getSeasonTypeForParams(answers) {
-        console.log("getSeasonTypeForParams: " + answers);
         let skinTone = answers["skinColor"][1];
         let seasonType = null;
 
         switch(skinTone) {
             case "0":
-                seasonType = "summer";
+                seasonType = 1; // summer
                 break
             case "1":
-                seasonType = "winter";
+                seasonType = 3; // winter
                 break
             case "2":
-                seasonType = "spring";
+                seasonType = 0; // spring
                 break
             case "3":
-                seasonType = "autumn";
+                seasonType = 2; // autumn
                 break
         }
 
@@ -110,14 +109,13 @@ class SeasonTypeAlgorithm {
      *
      * @param typeId --> Id of the season type
      */
-    static getSeasonTypeObject(seasonTypeName) {
+    static getSeasonTypeObject(seasonTypeId) {
         let seasonTypeObject = {};
-        seasonTypeName = seasonTypeName.toLowerCase();
 
         for(let i = 0; i < seasonTypes.length; i++) {
             let examinedObject = seasonTypes[i];
 
-            if(seasonTypeName === examinedObject.name.toLowerCase()) {
+            if(seasonTypeId === examinedObject["id"]) {
                 seasonTypeObject = examinedObject;
                 break;
             }
@@ -133,7 +131,7 @@ class SeasonTypeAlgorithm {
 
         jsonObject.forEach(element => {
             let paramString = element.params.join(">").toLowerCase();
-            console.log(paramString)
+
             if (seasonType && seasonType.toLowerCase() === element.type.toLowerCase() && paramString.includes(searchString)) {
                 result.results.push(element.params + "|" + element.type)
                 result.counter++;
