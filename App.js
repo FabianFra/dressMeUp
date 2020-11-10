@@ -116,7 +116,6 @@ export default class App extends Component{
                 console.log("Navigate to HomeScreen")
                 this.setSeasonType(data);
                 global.currentUser = new User(global.seasonType.id, data.skinColor, data.eyeColor, data.hairColor, data.desirableColors, data.undesirableColors);
-
                 navigation.navigate('HomeScreen')
             }
         })
@@ -124,6 +123,7 @@ export default class App extends Component{
 
     resetDatabase = async (navigation) => {
         return await DatabaseHandler.removeAppsKeys().then(() => {
+            global.currentUser = undefined;
             navigation.navigate('StartScreen');
         });
     }

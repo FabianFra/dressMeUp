@@ -38,6 +38,7 @@ export default class MartianColorSelect extends Component {
             case MartianColorSelect.MARTIAN_COLOR_SELECT_TYPE.MULTI_SELECT:
                 return this.generateMartianColorsMultiSelectQuestion();
         }
+
     }
 
     //-------------------------------------------------------------------------
