@@ -106,7 +106,9 @@ export default class MartianColorSelect extends Component {
                 <View style={GlobalStyle.colorContainer}>
                     <FlatList keyExtractor={(item, index) => item.hex} contentContainerStyle={{alignItems: 'center', padding: 10}}
                               data={colorsWithText} numColumns={2} renderItem={ itemData =>
-                        <TouchableOpacity disabled={this.representativeItemIsDisabled(itemData.item.hex)} onPress={ () => this.getColorSpecifications(itemData.item.originalInput) } style={ [this.getStyleClassForMultiSelect(itemData, true), this.representativeItemIsDisabledStyleClass(itemData.item.hex)] }>
+                        <TouchableOpacity disabled={this.representativeItemIsDisabled(itemData.item.hex)}
+                                          onPress={ () => this.getColorSpecifications(itemData.item.originalInput) } style={ [this.getStyleClassForMultiSelect(itemData, true), this.representativeItemIsDisabledStyleClass(itemData.item.hex)] }
+                                          onLongPress={ () => this.handleLongPressEvent(itemData.item.hex)}>
                             <View style={GlobalStyle.colorSquareContentContainer}>
                                 <Text style={[GlobalStyle.colorSquareText, itemData.item.textStyle]}>{itemData.item.originalInput.name}</Text>
                             </View>
@@ -312,6 +314,45 @@ export default class MartianColorSelect extends Component {
 
         this.state.selectedItems = selectedItems;
         this.setState(this.state);
+    }
+
+    handleLongPressEvent = (key) => {
+
+        if(this.state.colorHandler.isAchromaticColor(key)) {
+            this.handleSelectedElements(key);
+        } else {
+            let martianColor = this.state.colorHandler.findColorByHex(key);
+            let monochromaticColors = this.state.colorHandler.getMonochromaticColors(martianColor, "hex");
+
+            let removeItemsFromList = false;
+            let selectedItems = this.state.selectedItems;
+
+            for(let i = 0; i < monochromaticColors.length; i++) {
+                let monochromaticColor = monochromaticColors[i];
+
+                if(HelperTool.isDeclaredAndNotNull(selectedItems) && !HelperTool.isEmpty(selectedItems)) {
+                    if(selectedItems.includes(monochromaticColor)) {
+                        removeItemsFromList = true;
+                        break;
+                    }
+                }
+            }
+
+            if(removeItemsFromList) {
+                this.state.selectedItems = selectedItems.filter((color) => !HelperTool.isInArray(color, monochromaticColors));
+            } else {
+                if(HelperTool.isDeclaredAndNotNull(this.props) && HelperTool.isDeclaredAndNotNull(this.props.answers) && !HelperTool.isEmpty(this.props.answers)) {
+                    let desirableColors = this.props.answers[this.props.answers.length -1]["answer"];
+                    let filteredMonochromaticColors = monochromaticColors.filter((color) => !HelperTool.isInArray(color, desirableColors));
+                    this.state.selectedItems = selectedItems.concat(filteredMonochromaticColors);
+                } else {
+                    this.state.selectedItems = selectedItems.concat(monochromaticColors);
+                }
+            }
+
+
+            this.setState(this.state);
+        }
     }
 
     getTitleForModal = (value) => {
