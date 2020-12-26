@@ -5,14 +5,14 @@ import {FlatList, Image, Modal, Text, TouchableOpacity, View} from "react-native
 import GlobalStyle from "../js/GlobalStyle";
 import QuestionHandler from "../components/QuestionHandler";
 
-import SearchForTop from "../../../FranksAlgorithmus/src/scripts/ffr_searchForTop";
+import SearchForTop from "../../../FranksAlgorithmus/src/scripts/SearchForTop";
 import TinyColor from "../frameworks/TinyColor/tinycolor";
-import ColorHandler from "../../../FranksAlgorithmus/src/scripts/martianColor";
+import MartianColorHandler from "../../../FranksAlgorithmus/src/scripts/MartianColorHandler.js";
 
 export default class CreateUserView extends Component {
     constructor(props) {
         super(props);
-        this.state = { showQuestions: true, showResults: false, martianColorHandler: new ColorHandler() };
+        this.state = { showQuestions: true, showResults: false, martianColorHandler: new MartianColorHandler() };
     }
 
     componentDidMount() {

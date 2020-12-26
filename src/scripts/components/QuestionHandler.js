@@ -2,11 +2,11 @@ import React, {useState, Component} from 'react';
 import {Text, View, TouchableOpacity, FlatList, StyleSheet, Modal} from "react-native";
 
 import GlobalStyle from "../js/GlobalStyle";
-import ColorHandler from "../../../FranksAlgorithmus/src/scripts/martianColor";
+import MartianColorHandler from "../../../FranksAlgorithmus/src/scripts/MartianColorHandler";
 import TinyColor from "../frameworks/TinyColor/tinycolor";
 import SeasonTypeAlgorithm from "../js/SeasonTypeAlgorithm";
 
-import HelperTool from "../../../FranksAlgorithmus/src/scripts/ffr_helper";
+import HelperTool from "../../../FranksAlgorithmus/src/scripts/Helpertool";
 import MartianColorSelect from "./MartianColorSelect";
 
 
@@ -90,7 +90,7 @@ export default class QuestionHandler extends Component {
 
     initializeState = () => {
         this.state = {
-            martianColorHandler: new ColorHandler(),
+            martianColorHandler: new MartianColorHandler(),
             questions: this.props.questions,
             questionIndex: 0,
 
@@ -194,7 +194,7 @@ class Question extends Component {
 
     initializeState = () => {
         this.state = {
-            colorHandler: new ColorHandler(),
+            colorHandler: new MartianColorHandler(),
             showModal: false,
             modalElements: [],
             modalTitle: "",

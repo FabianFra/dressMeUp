@@ -11,8 +11,8 @@ import {navigationRef} from "./src/scripts/js/RootNavigation";
 import CreateUserView from "./src/scripts/views/CreateUserView";
 import SearchView from "./src/scripts/views/SearchView";
 import SeasonTypeAlgorithm from "./src/scripts/js/SeasonTypeAlgorithm";
-import FranksAlgorithm from "./FranksAlgorithmus/src/scripts/ffr_algorithm.js";
-import User from "./FranksAlgorithmus/src/scripts/ffr_user";
+import FabscheAlgorithm from "./FranksAlgorithmus/src/scripts/FabscheAlgorithm.js";
+import User from "./FranksAlgorithmus/src/scripts/User";
 
 
 export default class App extends Component{
@@ -69,7 +69,7 @@ export default class App extends Component{
                 </View>
                 <View style={GlobalStyle.mainMenuContainer}>
                     <View style={{flex: 0.8, flexDirection: "column", justifyContent: "center",  marginHorizontal: 10}}>
-                        <TouchableOpacity style={[GlobalStyle.mainMenuButton, GlobalStyle.commonShadow, {flexDirection: "row", justifyContent: "center"}]} onPress={() => { global.searchFor = FranksAlgorithm.SEARCH_OPTIONS.SHIRT; navigation.navigate('SearchView') }}>
+                        <TouchableOpacity style={[GlobalStyle.mainMenuButton, GlobalStyle.commonShadow, {flexDirection: "row", justifyContent: "center"}]} onPress={() => { global.searchFor = FabscheAlgorithm.SEARCH_OPTIONS.SHIRT; navigation.navigate('SearchView') }}>
                             <Text style={[GlobalStyle.commonText, {marginRight: 10}]}>T-Shirt</Text>
                             <Image style={{width: 50, height: 50, tintColor: '#ffffff'}} source={require('./src/resources/images/tshirt.png')}/>
                         </TouchableOpacity>
