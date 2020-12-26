@@ -127,20 +127,32 @@ export default class QuestionHandler extends Component {
 
     handleSubmit = (answer) => {
         let question = this.getCurrentQuestion();
-        this.state.questionIndex++;
 
         if(question.isConditional) {
             let nextQuestion = this.getNextQuestion();
 
-            if(HelperTool.isDeclaredAndNotNull(nextQuestion.skipWhen)) {
-                if(answer.answer[0] === nextQuestion.skipWhen) {
-                    this.state.skippedQuestionIndex.push(nextQuestion.id);
-                    this.state.questionIndex++;
+            if(HelperTool.isDeclared(nextQuestion.skipWhen)) {
+                if(HelperTool.isIterable(nextQuestion.skipWhen)) {
+                    if(HelperTool.isInArray(answer.answer[0], nextQuestion.skipWhen)) {
+                        if(HelperTool.isDeclaredAndNotNull(question.storeAs)) {
+                            this.state.answers = this.state.answers.concat(answer);
+                        }
+
+                        this.state.skippedQuestionIndex.push(nextQuestion.id);
+                        this.state.questionIndex++;
+                    }
+                } else {
+                    if(answer.answer[0] === nextQuestion.skipWhen) {
+                        this.state.skippedQuestionIndex.push(nextQuestion.id);
+                        this.state.questionIndex++;
+                    }
                 }
             }
         } else {
             this.state.answers = this.state.answers.concat(answer);
         }
+
+        this.state.questionIndex++;
     }
 
     // Getter / Setter

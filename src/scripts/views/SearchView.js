@@ -31,9 +31,18 @@ export default class CreateUserView extends Component {
         this.state.showQuestions = false;
         this.state.showResults = true;
 
-        this.state.result = new SearchForTop(answers, global.currentUser).resultObject;
+        if(!HelperTool.isDeclared(answers["preferLightColors"])) {
+            answers["preferLightColors"] = null;
+        }
 
-        //console.log(this.state.result);
+        if(!HelperTool.isDeclared(answers["preferSaturatedColors"])) {
+            answers["preferSaturatedColors"] = null;
+        }
+
+        console.log("answerser: ", answers);
+        //console.log(global.currentUser);
+
+        this.state.result = new SearchForTop(answers, global.currentUser).resultObject;
 
         this.setState(this.state);
     }
@@ -41,9 +50,9 @@ export default class CreateUserView extends Component {
     render = () => {
         const questions = [
             { id: "0", title: 'Möchtest du auffallen?', type: 'STANDARD_DYNAMIC', options: [{"key": "Ja", "value": false}, {"key": "Nein", "value": true}], storeAs: "wantToStandOut"},
-            { id: "1", title: 'Möchtest du deinen Augen schmeicheln?', type: 'STANDARD_DYNAMIC', options: [{"key": "Ja", "value": false}, {"key": "Nein", "value": true}, {"key": "Mir egal", "value": null}], storeAs: "focusEyeColor"},
-            { id: "2", title: 'Gesättige- oder Grelle Farben?', type: 'STANDARD_DYNAMIC', options: [{"key": "Gesättigte Farben", "value": false}, {"key": "Grelle Farben", "value": true}, {"key": "Mir egal", "value": null}], storeAs: "preferSaturatedColors"},
-            { id: "3", title: 'Magst du eher helle- oder dunkle Farben?', type: 'STANDARD_DYNAMIC', options: [{"key": "Helle Farben", "value": false}, {"key": "Dunkle Farben", "value": true}, {"key": "Mir egal", "value": null}], storeAs: "preferLightColors"},
+            { id: "1", title: 'Möchtest du deine Augen hervorstechen lassen?', type: 'STANDARD_DYNAMIC', options: [{"key": "Ja", "value": false}, {"key": "Nein", "value": true}, {"key": "Mir egal", "value": null}], storeAs: "focusEyeColor"},
+            { id: "2", title: 'Gesättige- oder Grelle Farben?', type: 'STANDARD_DYNAMIC', options: [{"key": "Gesättigte Farben", "value": true}, {"key": "Grelle Farben", "value": false}, {"key": "Mir egal", "value": null}], storeAs: "preferSaturatedColors", isConditional: true},
+            { id: "3", title: 'Magst du eher helle- oder dunkle Farben?', type: 'STANDARD_DYNAMIC', options: [{"key": "Helle Farben", "value": false}, {"key": "Dunkle Farben", "value": true}, {"key": "Mir egal", "value": null}], storeAs: "preferLightColors", skipWhen: [true, false]},
             { id: "4", title: 'Welche Farbe haben deine Schuhe?', type: 'MARTIAN_COLOR', storeAs: "shoes"},
             { id: "5", title: 'Welche Farbe hat deine Hose?', type: 'MARTIAN_COLOR', storeAs: "trousers"},
             { id: "6", title: 'Trägst du eine Jacke?', type: 'STANDARD_DYNAMIC', options: [{"key": "Ja", "value": true}, {"key": "Nein", "value": false}], isConditional: true},
