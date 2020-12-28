@@ -31,7 +31,7 @@ kombinieren. Besteht das zusammengestellte Outfit ausschließlich aus neutralen 
 getragen werden. Ist die farbliche Zusammenstellung des Outfits wiederum eine Kombination aus neutralen Farben und 
 maximal einer nicht neutralen Farbe, so kann eine Farbe der gleichen Farbfamilie gewählt werden.
 
-**Projektpfad:** [FabscheAlgorithmus/src/scripts/DatabaseHandler.js](FabscheAlgorithmus/src/scripts/DatabaseHandler.js)
+**Projektpfad:** [FabscheAlgorithmus/src/scripts/OneColorTrick.js](FabscheAlgorithmus/src/scripts/OneColorTrick.js)
 
 ### DataBaseHandler
 Die Klasse DatabaseHandler ist die Schnittstelle für das Arbeiten mit dem Framework AsyncStorage. Es besitzt 
