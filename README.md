@@ -233,6 +233,17 @@ einem passenden Oberteil implementiert.
 Im folgenden Abschnitt möchte ich mir für die Unterstützung der folglich genannten Personen bedanken. Sie haben mich während
 der Erarbeitung der Bachelorarbeit sowie beim Testen der Anwendung unterstützt.
 
-T. Stark, M.Heyer, T. Ostermaier, S. Weigel, M. Frank, D. Weigel, E. Felski, C. Ebel, U. Ebel, S. Ebel, D. Albrecht, 
-S. Albrecht
+- D. Albrecht
+- S. Albrecht
+- C. Ebel 
+- S. Ebel
+- U. Ebel
+- E. Felski
+- M. Frank
+- M. Heyer
+- T. Ostermaier
+- T. Stark
+- D. Weigel
+- S. Weigel
+
 
