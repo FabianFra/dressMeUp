@@ -74,7 +74,7 @@ dressMeUp
 ```
 
 ---
-## root
+## Root
 ### [App.js](App.js)
 Beinhaltet die Definition der einzelnen Views und deren Einordnung in der StackNavigation. 
 
