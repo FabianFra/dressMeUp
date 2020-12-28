@@ -22,7 +22,7 @@ Das Projekt ist innerhalb meiner Bachelorarbeit entstanden und ist öffentlich z
 Objekte der Klasse User halten die repräsentativen Nutzerdaten. Sie beinhalten die äußerlichen Merkmale des Benutzers, 
 die präferierten und nicht präferierten Farben als auch den Typ des Anwenders
 
-**Projektpfad:** [FabscheAlgorithmus/src/scripts/js/User.js](FabscheAlgorithmus/src/scripts/js/User.js)
+**Projektpfad:** [FabscheAlgorithmus/src/scripts/User.js](FabscheAlgorithmus/src/scripts/User.js)
 
 ### OneColorTrick.js
 Der One-Color-Trick ist eine etablierte Methode in der Zusammenstellung von Kleidung, welche auf der Kombination von 
@@ -31,7 +31,7 @@ kombinieren. Besteht das zusammengestellte Outfit ausschließlich aus neutralen 
 getragen werden. Ist die farbliche Zusammenstellung des Outfits wiederum eine Kombination aus neutralen Farben und 
 maximal einer nicht neutralen Farbe, so kann eine Farbe der gleichen Farbfamilie gewählt werden.
 
-**Projektpfad:** [FabscheAlgorithmus/src/scripts/js/DatabaseHandler.js](FabscheAlgorithmus/src/scripts/js/DatabaseHandler.js)
+**Projektpfad:** [FabscheAlgorithmus/src/scripts/DatabaseHandler.js](FabscheAlgorithmus/src/scripts/DatabaseHandler.js)
 
 ### DataBaseHandler
 Die Klasse DatabaseHandler ist die Schnittstelle für das Arbeiten mit dem Framework AsyncStorage. Es besitzt 
@@ -48,7 +48,7 @@ Des weiteren gibt es Funktionen, um die warmen- und kalten Farben zu identifizie
 filtern, den Farbwert, die Sättigung oder die Helligkeit der Farbe zu extrahieren und Farbobjekte zu vergleichen. 
 Hauptaufgabe der Klasse ist die Implementierung der Farbschemata.
 
-**Projektpfad:** [FabscheAlgorithmus/src/scripts/js/MartianColorHandler.js](FabscheAlgorithmus/src/scripts/js/MartianColorHandler.js)
+**Projektpfad:** [FabscheAlgorithmus/src/scripts/MartianColorHandler.js](FabscheAlgorithmus/src/scripts/MartianColorHandler.js)
 
 ### SeasonTypeHandler.js
 Im Rahmen der Identifizierung des Typs werden dem Anwender Fragen zu äußerlichen Merkmalen und Präferenzen gestellt. 
@@ -62,12 +62,12 @@ Allgemeingültige Vorgaben und Verhaltensweisen sind innerhalb der Realisierung 
 Diese Klasse ist eine Blaupause für erbende Klassen, die einen Suchalgorithmus für Kleidungsstücke anhand der 
 Business-Idee FabscheAlgorithmus realisieren (vgl. SearchForTop.js).
 
-**Projektpfad:** [FabscheAlgorithmus/src/scripts/js/FabscheAlgorithm.js](FabscheAlgorithmus/src/scripts/js/FabscheAlgorithm.js)
+**Projektpfad:** [FabscheAlgorithmus/src/scripts/FabscheAlgorithm.js](FabscheAlgorithmus/src/scripts/FabscheAlgorithm.js)
 
 ### SearchForTop.js
 Die Klasse realisiert den Prozess für das Suchen nach einem farblich passenden Oberteil.
 
-**Projektpfad:** [FabscheAlgorithmus/src/scripts/js/FabscheAlgorithm.js](FabscheAlgorithmus/src/scripts/js/FabscheAlgorithm.js)
+**Projektpfad:** [FabscheAlgorithmus/src/scripts/FabscheAlgorithm.js](FabscheAlgorithmus/src/scripts/SearchForTop.js)
 ___
 
 ### _Mobile Applikation_
