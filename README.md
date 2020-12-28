@@ -1,5 +1,5 @@
 # dressMeUp
-_ _ _
+___
 _DressMeUp_ ist eine mobile Applikation, welche ein Werkzeug für die Unterstützung des Anwenders bei der 
 Zusammenstellung farblich passender Kleidung darstellt. Sie wird verwendet, um Entscheidungen der farblichen 
 Komposition zu erleichtern und das Auge des Benutzer darin zu schulen, Farbharmonien und Disharmonien zu 
@@ -13,10 +13,65 @@ Das Projekt ist innerhalb meiner Bachelorarbeit entstanden und ist öffentlich z
 
 ---
 
-## Klassen
-
-### Algorithmus
+## Klassenhierarchie
 ![Klassenhierarchie](FabscheAlgorithmus/src/resources/images/DressMeUp-Klassenhierarchie.png)
+
+## Projektstruktur
+```
+dressMeUp   
+│   App.js
+│   ...
+│
+└───FabscheAlgorithmus
+│   │
+│   └───frameworks
+│   │   │
+│   │   └───TinyColor
+│   │   │   │   ...
+│   │   │
+│   └───src
+│   │   └───resources
+│   │   │   │   martianColorWheelData.js
+│   │   │   │   seasonTypeData.js
+│   │   │   
+│   │   └───scripts
+│   │   │   │   FabscheAlgorithm.js
+│   │   │   │   Helpertool.js
+│   │   │   │   LoggingTool.js
+│   │   │   │   MartianColorHandler.js
+│   │   │   │   OneColorTrick.js
+│   │   │   │   SearchForTop.js
+│   │   │   │   User.js
+│
+└───src
+    └───resources
+    │   │ 
+    │   └───data
+    │   │   │   ...
+    │   │ 
+    │   └───images
+    │       │   ...
+    │   
+    └───scripts
+    │   │ 
+    │   └───components
+    │   │   │   AnimatedCircle.js
+    │   │   │   MartianColorSelect.js
+    │   │   │   QuestionHandler.js
+    │   │ 
+    │   └───js
+    │   │   │   ColorHandler.js
+    │   │   │   DatabaseHandler.js
+    │   │   │   GlobalStyle.js
+    │   │   │   NavigationHandler.js
+    │   │   │   RootNavigation.js
+    │   │   │   SeasonTypeHandler.js
+    │   │ 
+    │   └───views
+    │   │   │   CreateUserView.js
+    │   │   │   SearchView.js
+...
+```
 
 ### User.js
 Objekte der Klasse User halten die repräsentativen Nutzerdaten. Sie beinhalten die äußerlichen Merkmale des Benutzers, 
@@ -33,7 +88,7 @@ maximal einer nicht neutralen Farbe, so kann eine Farbe der gleichen Farbfamilie
 
 **Projektpfad:** [FabscheAlgorithmus/src/scripts/OneColorTrick.js](FabscheAlgorithmus/src/scripts/OneColorTrick.js)
 
-### DataBaseHandler
+### DataBaseHandler.js
 Die Klasse DatabaseHandler ist die Schnittstelle für das Arbeiten mit dem Framework AsyncStorage. Es besitzt 
 Hilfsfunktionen, um Daten beziehungsweise Datenobjekte zu speichern und auszulesen. Des weiteren können Datensätze auf 
 ihre Existenz überprüft werden und gegebenenfalls gelöscht werden.
@@ -68,44 +123,11 @@ Business-Idee FabscheAlgorithmus realisieren (vgl. SearchForTop.js).
 Die Klasse realisiert den Prozess für das Suchen nach einem farblich passenden Oberteil.
 
 **Projektpfad:** [FabscheAlgorithmus/src/scripts/FabscheAlgorithm.js](FabscheAlgorithmus/src/scripts/SearchForTop.js)
-___
+_ _ _
 
 ### _Mobile Applikation_
 
-```
-dressMeUp   
-│   App.js
-│   ...
-│
-└───src
-    └───resources
-    │   │ 
-    │   └───data
-    │   │   │   ...
-    │   │ 
-    │   └───images
-    │       │   ...
-    │   
-    └───scripts
-    │   │ 
-    │   └───components
-    │   │   │   AnimatedCircle.js
-    │   │   │   MartianColorSelect.js
-    │   │   │   QuestionHandler.js
-    │   │ 
-    │   └───js
-    │   │   │   ColorHandler.js
-    │   │   │   DatabaseHandler.js
-    │   │   │   GlobalStyle.js
-    │   │   │   NavigationHandler.js
-    │   │   │   RootNavigation.js
-    │   │   │   SeasonTypeHandler.js
-    │   │ 
-    │   └───views
-    │   │   │   CreateUserView.js
-    │   │   │   SearchView.js
-...
-```
+
 ### dressMeUp/App.js
 Beinhaltet die Definition der einzelnen Views und deren Einordnung in der StackNavigation. 
 
@@ -161,7 +183,7 @@ const questions = [
 ### dressMeUp/src/scripts/js
 
 ### DataBaseHandsler.js
-[vgl. DataBaseHandler.js](#DataBaseHandler)
+[vgl. DataBaseHandler.js](#databasehandler.js)
 
 ### GlobalStyle.js
 Die Klasse beinhaltet allgemeingültige Style-Informationen für UI-Komponenten.
