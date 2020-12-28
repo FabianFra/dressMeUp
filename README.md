@@ -214,4 +214,8 @@ der Erarbeitung der Bachelorarbeit sowie beim Testen der Anwendung unterstützt.
 - _D. Weigel_
 - _S. Weigel_
 
+Ich bedanke mich bei _Prof. Dr. Burkhard Messer_ und _Dr. Hermann Thiel_ für das Betreuen meiner Arbeit. 
+
+Ein zusätzlicher Dank gebührt _Warren Mars_ für das Bereitstellen seines geistigen Eigentums ([Martian-Color-Wheel](http://warrenmars.com/visual_art/theory/colour_wheel/colour_wheel.htm))
+
 
