@@ -109,7 +109,7 @@ dressMeUp
 ### dressMeUp/App.js
 Beinhaltet die Definition der einzelnen Views und deren Einordnung in der StackNavigation. 
 
-**Projektpfad:** dressMeUp\App.js
+**Projektpfad:** [dressMeUp\App.js](App.js)
 
 ---
 ### dressMeUp/src/resources/data
@@ -166,20 +166,20 @@ const questions = [
 ### GlobalStyle.js
 Die Klasse beinhaltet allgemeingültige Style-Informationen für UI-Komponenten.
 
-**Projektpfad:** [dressMeUp\src\scripts\js\GlobalStyle.js](.\src\scripts\js\GlobalStyle.js)
+**Projektpfad:** [dressMeUp\src\scripts\js\GlobalStyle.js](src/scripts/js/GlobalStyle.js)
 
 ### RootNavigation.js
 Die Klasse bereitet das Arbeiten mit der StackNavigation vor. Es beinhaltet eine Hilfsfunktion, welche das Navigieren 
 zwischen den verschiedenen Views des Stacks erleichtert.
 
-**Projektpfad:** [dressMeUp\src\scripts\js\RootNavigation.js](.\src\scripts\js\RootNavigation.js)
+**Projektpfad:** [dressMeUp\src\scripts\js\RootNavigation.js](src/scripts/js/RootNavigation.js)
 
 ### SeasonTypeHandler.js
 Im Rahmen der Identifizierung des Typs werden dem Anwender Fragen zu äußerlichen Merkmalen und Präferenzen gestellt.
 Der SeasonTypeHandler ermittelt anhand der gegebenen Daten den Typ des Anwenders. Grundlage ist der von Zalando
 implementierte Algorithmus, welcher auf der Theorie des Vier-Farbtyp-Systems basiert.
 
-**Projektpfad:** [dressMeUp\src\scripts\js\SeasonTypeHandler.js](.\src\scripts\js\SeasonTypeHandler.js)
+**Projektpfad:** [dressMeUp\src\scripts\js\SeasonTypeHandler.js](src/scripts/js/SeasonTypeHandler.js)
 
 ---
 ### dressMeUp/src/scripts/views
@@ -187,13 +187,13 @@ implementierte Algorithmus, welcher auf der Theorie des Vier-Farbtyp-Systems bas
 ### CreateUserView.js
 Die Klasse beinhaltet Logik und Aussehen der View für das Erstellen des Anwenderprofils.
 
-**Projektpfad:** [dressMeUp\src\scripts\js\CreateUserView.js](.\src\scripts\js\CreateUserView.js)
+**Projektpfad:** [dressMeUp\src\scripts\js\CreateUserView.js](src/scripts/js/CreateUserView.js)
 
 ### SearchView.js
 Die Klasse beinhaltet Logik und Aussehen für die Suche nach der ausgewählten Kleidung. In Version 1.0 ist die Suche nach
 einem passenden Oberteil implementiert.
 
-**Projektpfad:** [dressMeUp\src\scripts\js\SearchView.js](.\src\scripts\js\SearchView.js)
+**Projektpfad:** [dressMeUp\src\scripts\js\SearchView.js](src/scripts/js/SearchView.js)
 
 ---
 ## Frameworks
@@ -203,7 +203,7 @@ es benutzt, um farbspezifische Hilfsfunktionen und Farbkonvertierungen auszufüh
 
 **Link**: [https://github.com/bgrins/TinyColor](https://github.com/bgrins/TinyColor)
 
-**Projektpfad**: [dressMeUp\FabscheAlgorithmus\frameworks\TinyColor](.\FabscheAlgorithmus\frameworks\TinyColor\tinycolor.js)
+**Projektpfad**: [dressMeUp\FabscheAlgorithmus\frameworks\TinyColor](FabscheAlgorithmus/frameworks/TinyColor/tinycolor.js)
 
 ---
 ## Danksagung
