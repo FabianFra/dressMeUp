@@ -74,20 +74,16 @@ dressMeUp
 ```
 
 ---
-## App.js
+## [App.js](App.js)
 Beinhaltet die Definition der einzelnen Views und deren Einordnung in der StackNavigation. 
-
-**Projektpfad:** [dressMeUp\App.js](App.js)
 
 ---
 ## FabscheAlgorithmus/frameworks
-### TinyColor
+### [TinyColor](FabscheAlgorithmus/frameworks/TinyColor/tinycolor.js)
 _TinyColor_ ist es eine ressourcenarme JavaScript-Bibliothek für das Arbeiten mit Farben. Innerhalb des Algorithmus wird
 es benutzt, um farbspezifische Hilfsfunktionen und Farbkonvertierungen auszuführen.
 
 **Link**: [https://github.com/bgrins/TinyColor](https://github.com/bgrins/TinyColor)
-
-**Projektpfad**: [dressMeUp\FabscheAlgorithmus\frameworks\TinyColor](FabscheAlgorithmus/frameworks/TinyColor/tinycolor.js)
 
 ---
 ## FabscheAlgorithmus/resources
@@ -95,24 +91,18 @@ es benutzt, um farbspezifische Hilfsfunktionen und Farbkonvertierungen auszufüh
 ---
 
 ## FabscheAlgorithmus/scripts
-### FabscheAlgorithm.js
+### [FabscheAlgorithm.js](FabscheAlgorithmus/src/scripts/FabscheAlgorithm.js)
 Allgemeingültige Vorgaben und Verhaltensweisen sind innerhalb der Realisierung festgeschrieben. 
 Diese Klasse ist eine Blaupause für erbende Klassen, die einen Suchalgorithmus für Kleidungsstücke anhand der 
 Business-Idee FabscheAlgorithmus realisieren (vgl. SearchForTop.js).
 
-**Projektpfad:** [FabscheAlgorithmus/src/scripts/FabscheAlgorithm.js](FabscheAlgorithmus/src/scripts/FabscheAlgorithm.js)
-
-### Helpertool.js
+### [Helpertool.js](FabscheAlgorithmus/src/scripts/Helpertool.js)
 Beinhaltet allgemeingültige Hilfsfunktionen.
 
-**Projektpfad:** [FabscheAlgorithmus/src/scripts/FabscheAlgorithm.js](FabscheAlgorithmus/src/scripts/Helpertool.js)
-
-### LoggingTool.js
+### [LoggingTool.js](FabscheAlgorithmus/src/scripts/Loggingtool.js)
 Die Klasse dient für jegliche (Konsolen-)Ausgaben in der Anwendung.
 
-**Projektpfad:** [FabscheAlgorithmus/src/scripts/Loggintool.js](FabscheAlgorithmus/src/scripts/Loggintool.js)
-
-### MartianColorHandler.js
+### [MartianColorHandler.js](FabscheAlgorithmus/src/scripts/MartianColorHandler.js)
 Der MartianColorHandler dient grundlegend dazu, um mit den eingespeisten Farbobjekten zu arbeiten. Essentielle Funktion 
 ist findColorByProperty, welche die Farbe anhand des übergebenen property- und value Parameters zurückgibt. Zusätzlich 
 können durch die Hilfsfunktionen isDarkColor und isLightColor die Farben nach ihrer Helligkeit unterschieden werden. 
@@ -120,50 +110,38 @@ Des weiteren gibt es Funktionen, um die warmen- und kalten Farben zu identifizie
 filtern, den Farbwert, die Sättigung oder die Helligkeit der Farbe zu extrahieren und Farbobjekte zu vergleichen. 
 Hauptaufgabe der Klasse ist die Implementierung der Farbschemata.
 
-**Projektpfad:** [FabscheAlgorithmus/src/scripts/MartianColorHandler.js](FabscheAlgorithmus/src/scripts/MartianColorHandler.js)
-
-### OneColorTrick.js
+### [OneColorTrick.js](FabscheAlgorithmus/src/scripts/OneColorTrick.js)
 Der One-Color-Trick ist eine etablierte Methode in der Zusammenstellung von Kleidung, welche auf der Kombination von 
 nicht neutralen- und neutralen Farben basiert. In der Theorie lassen sich ohne große Bedenken neutrale Farbe miteinander
 kombinieren. Besteht das zusammengestellte Outfit ausschließlich aus neutralen Farben, so kann dazu eine beliebige Farbe
 getragen werden. Ist die farbliche Zusammenstellung des Outfits wiederum eine Kombination aus neutralen Farben und 
 maximal einer nicht neutralen Farbe, so kann eine Farbe der gleichen Farbfamilie gewählt werden.
 
-**Projektpfad:** [FabscheAlgorithmus/src/scripts/OneColorTrick.js](FabscheAlgorithmus/src/scripts/OneColorTrick.js)
-
-### SearchForTop.js
+### [SearchForTop.js](FabscheAlgorithmus/src/scripts/SearchForTop.js)
 Die Klasse realisiert den Prozess für das Suchen nach einem farblich passenden Oberteil.
 
-**Projektpfad:** [FabscheAlgorithmus/src/scripts/FabscheAlgorithm.js](FabscheAlgorithmus/src/scripts/SearchForTop.js)
-
-### User.js
+### [User.js](FabscheAlgorithmus/src/scripts/User.js)
 Objekte der Klasse User halten die repräsentativen Nutzerdaten. Sie beinhalten die äußerlichen Merkmale des Benutzers, 
 die präferierten und nicht präferierten Farben als auch den Typ des Anwenders
 
-**Projektpfad:** [FabscheAlgorithmus/src/scripts/User.js](FabscheAlgorithmus/src/scripts/User.js)
-
 ---
-## src/resources/data
+## [src/resources/data](src/resources/data)
 In dem Pfad befinden sich essentielle Daten für das Arbeiten mit der Applikation.
 
-**Projektpfad:** (src/resources/data)[src/resources/data]
-
 ---
-## src/resources/images
+## [src/resources/images](src/resources/images)
 In dem Pfad befinden sich die Bilder, welche in der mobilen Applikation benutzt werden. Bitte beachten Sie die [README.md](src/resources/images/README.md).
-
-**Projektpfad:** (src/resources/images)[src/resources/images]
 
 ---
 ## src/scripts/components
-### AnimatedCircle.js
+### [AnimatedCircle.js](src/scripts/components/AnimatedCircle.js)
 Die Klasse beinhaltet den Quellcode für den animierten Kreis, welcher auf dem Startbildschirm zu sehen ist.
 
-### MartianColorSelect.js
+### [MartianColorSelect.js](src/scripts/components/MartianColorSelect.js)
 Die Klasse beinhaltet die generischen Views für die Selektion einer Farbe. Die beinhalteten Komponenten werden für jede 
 View benutzt, welche den Anwender bittet eine Farbe auszuwählen.
 
-## QuestionHandler.js
+## [QuestionHandler.js](src/scripts/components/QuestionHandler.js)
 Der QuestionHandler ist eine generische Lösung für das Darstellen von Fragen. Bei der Integration muss lediglich ein Array
 aus Frage-Objekten übergeben werden (vgl. dressMeUp/scripts/views/CreateUserView). 
 
@@ -189,43 +167,31 @@ const questions = [
 
 ---
 ## src/scripts/js
-### DataBaseHandler.js
+### [DataBaseHandler.js](src/scripts/js/DatabaseHandler.js)
 Die Klasse DatabaseHandler ist die Schnittstelle für das Arbeiten mit dem Framework AsyncStorage. Es besitzt 
 Hilfsfunktionen, um Daten beziehungsweise Datenobjekte zu speichern und auszulesen. Des weiteren können Datensätze auf 
 ihre Existenz überprüft werden und gegebenenfalls gelöscht werden.
 
-**Projektpfad:** [src/scripts/js/DatabaseHandler.js](src/scripts/js/DatabaseHandler.js)
-
-### GlobalStyle.js
+### [GlobalStyle.js](src/scripts/js/GlobalStyle.js)
 Die Klasse beinhaltet allgemeingültige Style-Informationen für UI-Komponenten.
 
-**Projektpfad:** [dressMeUp\src\scripts\js\GlobalStyle.js](src/scripts/js/GlobalStyle.js)
-
-### RootNavigation.js
+### [RootNavigation.js](src/scripts/js/RootNavigation.js)
 Die Klasse bereitet das Arbeiten mit der StackNavigation vor. Es beinhaltet eine Hilfsfunktion, welche das Navigieren 
 zwischen den verschiedenen Views des Stacks erleichtert.
 
-**Projektpfad:** [dressMeUp\src\scripts\js\RootNavigation.js](src/scripts/js/RootNavigation.js)
-
-### SeasonTypeHandler.js
+### [SeasonTypeHandler.js](src/scripts/js/SeasonTypeHandler.js)
 Im Rahmen der Identifizierung des Typs werden dem Anwender Fragen zu äußerlichen Merkmalen und Präferenzen gestellt. 
 Der SeasonTypeHandler ermittelt anhand der gegebenen Daten den Typ des Anwenders. Grundlage ist der von Zalando 
 implementierte Algorithmus, welcher auf der Theorie des Vier-Farbtyp-Systems basiert.
 
-**Projektpfad:** [src/scripts/js/SeasonTypeHandler.js](src/scripts/js/SeasonTypeHandler.js)
-
 ---
 ## src/scripts/views
-### CreateUserView.js
+### [CreateUserView.js](src/scripts/views/CreateUserView.js)
 Die Klasse beinhaltet Logik und Aussehen der View für das Erstellen des Anwenderprofils.
 
-**Projektpfad:** [dressMeUp\src\scripts\js\CreateUserView.js](src/scripts/js/CreateUserView.js)
-
-### SearchView.js
+### [SearchView.js](src/scripts/views/SearchView.js)
 Die Klasse beinhaltet Logik und Aussehen für die Suche nach der ausgewählten Kleidung. In Version 1.0 ist die Suche nach
 einem passenden Oberteil implementiert.
-
-**Projektpfad:** [dressMeUp\src\scripts\js\SearchView.js](src/scripts/js/SearchView.js)
 
 ---
 ## Danksagung
