@@ -148,8 +148,8 @@ _Version 1.0 beinhaltet folgende Fragetypen:_
 - STANDARD
 - STANDARD_DYNAMIC
 - SELECT_SEASON_TYPE
-- SELECT_SKIN_TONE:
-- MULTI_SELECT:
+- SELECT_SKIN_TONE
+- MULTI_SELECT
 
 ```javascript
 const questions = [
