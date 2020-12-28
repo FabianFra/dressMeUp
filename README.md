@@ -9,7 +9,7 @@ Anwender können nach einen Kleidungsstück, zum Beispiel einen T-Shirt oder ein
 Menge an passenden Farben dargestellt. Präferenzen und das äußerliche Erscheinungsbild des Anwenders sollen hierbei 
 berücksichtigt werden, um die Ergebnismenge zu sortieren. Die Gewichtung der Sortierparameter soll möglichst real sein.
 
-Das Projekt ist innerhalb meiner Bachelorarbeit entstanden und ist öffentlich zugänglich im Google Play Store
+Das Projekt ist innerhalb meiner Bachelorarbeit entstanden und ist öffentlich zugänglich im Google Play Store.
 
 ---
 
@@ -99,7 +99,7 @@ Business-Idee FabscheAlgorithmus realisieren (vgl. SearchForTop.js).
 ### [Helpertool.js](FabscheAlgorithmus/src/scripts/Helpertool.js)
 Beinhaltet allgemeingültige Hilfsfunktionen.
 
-### [LoggingTool.js](FabscheAlgorithmus/src/scripts/Loggingtool.js)
+### [LoggingTool.js](FabscheAlgorithmus/src/scripts/LoggingTool.js)
 Die Klasse dient für jegliche (Konsolen-)Ausgaben in der Anwendung.
 
 ### [MartianColorHandler.js](FabscheAlgorithmus/src/scripts/MartianColorHandler.js)
@@ -141,7 +141,7 @@ Die Klasse beinhaltet den Quellcode für den animierten Kreis, welcher auf dem S
 Die Klasse beinhaltet die generischen Views für die Selektion einer Farbe. Die beinhalteten Komponenten werden für jede 
 View benutzt, welche den Anwender bittet eine Farbe auszuwählen.
 
-## [QuestionHandler.js](src/scripts/components/QuestionHandler.js)
+### [QuestionHandler.js](src/scripts/components/QuestionHandler.js)
 Der QuestionHandler ist eine generische Lösung für das Darstellen von Fragen. Bei der Integration muss lediglich ein Array
 aus Frage-Objekten übergeben werden (vgl. dressMeUp/scripts/views/CreateUserView). 
 
@@ -199,17 +199,17 @@ einem passenden Oberteil implementiert.
 Im folgenden Abschnitt möchte ich mir für die Unterstützung der folglich genannten Personen bedanken. Sie haben mich während
 der Erarbeitung der Bachelorarbeit sowie beim Testen der Anwendung unterstützt.
 
-- D. Albrecht
-- S. Albrecht
-- C. Ebel 
-- S. Ebel
-- U. Ebel
-- E. Felski
-- M. Frank
-- M. Heyer
-- T. Ostermaier
-- T. Stark
-- D. Weigel
-- S. Weigel
+- _D. Albrecht_
+- _S. Albrecht_
+- _C. Ebel_
+- _S. Ebel_
+- _U. Ebel_
+- _E. Felski_
+- _M. Frank_
+- _M. Heyer_
+- _T. Ostermaier_
+- _T. Stark_
+- _D. Weigel_
+- _S. Weigel_
 
 
