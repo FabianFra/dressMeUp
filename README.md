@@ -45,10 +45,7 @@ dressMeUp
 │
 └───src
     └───resources
-    │   │ 
-    │   └───data
-    │   │   │   ...
-    │   │ 
+    │   │  
     │   └───images
     │       │   ...
     │   
