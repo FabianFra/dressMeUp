@@ -5,9 +5,9 @@ import {FlatList, Image, Modal, Text, TouchableOpacity, View} from "react-native
 import GlobalStyle from "../js/GlobalStyle";
 import QuestionHandler from "../components/QuestionHandler";
 
-import SearchForTop from "../../../FranksAlgorithmus/src/scripts/SearchForTop";
+import SearchForTop from "../../../FabscheAlgorithmus/src/scripts/SearchForTop";
 import TinyColor from "../frameworks/TinyColor/tinycolor";
-import MartianColorHandler from "../../../FranksAlgorithmus/src/scripts/MartianColorHandler.js";
+import MartianColorHandler from "../../../FabscheAlgorithmus/src/scripts/MartianColorHandler.js";
 
 export default class CreateUserView extends Component {
     constructor(props) {

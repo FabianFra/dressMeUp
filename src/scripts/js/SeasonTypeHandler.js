@@ -1,6 +1,6 @@
-import seasonTypes from '../../../FranksAlgorithmus/src/resources/seasonTypes.json'
+import seasonTypes from '../../../FabscheAlgorithmus/src/resources/seasonTypes.json'
 
-class SeasonTypeAlgorithm {
+class SeasonTypeHandler {
 
     /**
      * params at index 0 --> (Grund-) Augenfarbe
@@ -146,4 +146,4 @@ class SeasonTypeAlgorithm {
 
 }
 
-export default SeasonTypeAlgorithm;
+export default SeasonTypeHandler;

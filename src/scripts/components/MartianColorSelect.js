@@ -2,9 +2,9 @@ import React, {Component} from "react";
 import {FlatList, Modal, Text, TouchableOpacity, View} from "react-native";
 import GlobalStyle from "../js/GlobalStyle";
 
-import MartianColorHandler from "../../../FranksAlgorithmus/src/scripts/MartianColorHandler";
+import MartianColorHandler from "../../../FabscheAlgorithmus/src/scripts/MartianColorHandler";
 import TinyColor from "../frameworks/TinyColor/tinycolor";
-import HelperTool from "../../../FranksAlgorithmus/src/scripts/Helpertool";
+import HelperTool from "../../../FabscheAlgorithmus/src/scripts/Helpertool";
 
 export default class MartianColorSelect extends Component {
 

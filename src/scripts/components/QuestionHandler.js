@@ -2,11 +2,11 @@ import React, {useState, Component} from 'react';
 import {Text, View, TouchableOpacity, FlatList, StyleSheet, Modal} from "react-native";
 
 import GlobalStyle from "../js/GlobalStyle";
-import MartianColorHandler from "../../../FranksAlgorithmus/src/scripts/MartianColorHandler";
+import MartianColorHandler from "../../../FabscheAlgorithmus/src/scripts/MartianColorHandler";
 import TinyColor from "../frameworks/TinyColor/tinycolor";
-import SeasonTypeAlgorithm from "../js/SeasonTypeAlgorithm";
+import SeasonTypeHandler from "../js/SeasonTypeHandler";
 
-import HelperTool from "../../../FranksAlgorithmus/src/scripts/Helpertool";
+import HelperTool from "../../../FabscheAlgorithmus/src/scripts/Helpertool";
 import MartianColorSelect from "./MartianColorSelect";
 
 
@@ -280,7 +280,7 @@ class Question extends Component {
     }
 
     generateSkinToneQuestion = (question) => {
-        let options = SeasonTypeAlgorithm.getSelectableForSkinTone(this.props.answers);
+        let options = SeasonTypeHandler.getSelectableForSkinTone(this.props.answers);
 
         return (
             <View style={GlobalStyle.commonContainer}>

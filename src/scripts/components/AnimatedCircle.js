@@ -1,13 +1,13 @@
 import {StyleSheet, View, Animated} from "react-native";
 import React, {useState} from "react";
-import ColorHandler from "../js/ColorHandler";
+import MartianColorHandler from "../../../FabscheAlgorithmus/src/scripts/MartianColorHandler";
 
 export default function AnimatedCircle() {
     const [animatedValue, setAnimatedValue] = useState(new Animated.Value(0));
-    const [colorHandler] = useState(new ColorHandler());
+    const [colorHandler] = useState(new MartianColorHandler());
 
     const buildAnimationParams = () => {
-        let colors = colorHandler.getAllColors();
+        let colors = colorHandler.getAllColors(false);
 
         let animationParam = {
             inputRange: [],

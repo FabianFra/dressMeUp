@@ -9,7 +9,7 @@ import DatabaseHandler from "../js/DatabaseHandler";
 import * as RootNavigation from "../js/RootNavigation"
 import {BackHandler} from "react-native-web";
 
-import SeasonTypeAlgorithm from "../js/SeasonTypeAlgorithm";
+import SeasonTypeHandler from "../js/SeasonTypeHandler";
 
 export default class CreateUserView extends Component {
     constructor(props) {
@@ -42,7 +42,7 @@ export default class CreateUserView extends Component {
     }
 
     evaluateAnswers = (answers) => {
-        let seasonType = SeasonTypeAlgorithm.getSeasonTypeForParams(answers);
+        let seasonType = SeasonTypeHandler.getSeasonTypeForParams(answers);
 
         answers["seasonType"] = seasonType;
         answers["eyeColor"] = answers["eyeColor"][0] === "0" ? "#0000ff" : (answers["eyeColor"][0] === "1" ? "#00bf00" : "#a65300")

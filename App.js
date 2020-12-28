@@ -10,9 +10,9 @@ import {navigationRef} from "./src/scripts/js/RootNavigation";
 
 import CreateUserView from "./src/scripts/views/CreateUserView";
 import SearchView from "./src/scripts/views/SearchView";
-import SeasonTypeAlgorithm from "./src/scripts/js/SeasonTypeAlgorithm";
-import FabscheAlgorithm from "./FranksAlgorithmus/src/scripts/FabscheAlgorithm.js";
-import User from "./FranksAlgorithmus/src/scripts/User";
+import SeasonTypeHandler from "./src/scripts/js/SeasonTypeHandler";
+import FabscheAlgorithm from "./FabscheAlgorithmus/src/scripts/FabscheAlgorithm.js";
+import User from "./FabscheAlgorithmus/src/scripts/User";
 
 
 export default class App extends Component{
@@ -133,7 +133,7 @@ export default class App extends Component{
      * @param data --> userData (Object)
      */
     setSeasonType = (data) => {
-        let seasonTypeObject = SeasonTypeAlgorithm.getSeasonTypeObject(data.seasonType);
+        let seasonTypeObject = SeasonTypeHandler.getSeasonTypeObject(data.seasonType);
 
         if(typeof seasonTypeObject !== "undefined") {
             global.seasonType = seasonTypeObject;
