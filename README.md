@@ -74,7 +74,8 @@ dressMeUp
 ```
 
 ---
-## [App.js](App.js)
+## root
+### [App.js](App.js)
 Beinhaltet die Definition der einzelnen Views und deren Einordnung in der StackNavigation. 
 
 ---
@@ -86,11 +87,16 @@ es benutzt, um farbspezifische Hilfsfunktionen und Farbkonvertierungen auszufüh
 **Link**: [https://github.com/bgrins/TinyColor](https://github.com/bgrins/TinyColor)
 
 ---
-## FabscheAlgorithmus/resources
+## FabscheAlgorithmus/src/resources
+### [MartianColorWheelData.js](FabscheAlgorithmus/src/resources/MartianColorWheelData)
+Die Klasse exportiert eine JSON, welche die Daten des [Martian-Color-Wheel](http://warrenmars.com/visual_art/theory/colour_wheel/colour_wheel.htm) hält.
+
+### [SeasonTypeData.js](FabscheAlgorithmus/src/resources/SeasonTypeData)
+Die Klasse exportiert eine JSON, welche die wichtigen Daten des Vier-Farbtyp-System hält (Frühlings-, Sommer-, Herbst- und Wintertyp).
 
 ---
 
-## FabscheAlgorithmus/scripts
+## FabscheAlgorithmus/src/scripts
 ### [FabscheAlgorithm.js](FabscheAlgorithmus/src/scripts/FabscheAlgorithm.js)
 Allgemeingültige Vorgaben und Verhaltensweisen sind innerhalb der Realisierung festgeschrieben. 
 Diese Klasse ist eine Blaupause für erbende Klassen, die einen Suchalgorithmus für Kleidungsstücke anhand der 
