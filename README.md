@@ -131,10 +131,6 @@ Objekte der Klasse User halten die repräsentativen Nutzerdaten. Sie beinhalten 
 die präferierten und nicht präferierten Farben als auch den Typ des Anwenders
 
 ---
-## [src/resources/data](src/resources/data)
-In dem Pfad befinden sich essentielle Daten für das Arbeiten mit der Applikation.
-
----
 ## [src/resources/images](src/resources/images)
 In dem Pfad befinden sich die Bilder, welche in der mobilen Applikation benutzt werden. Bitte beachten Sie die [README.md](src/resources/images/README.md).
 
