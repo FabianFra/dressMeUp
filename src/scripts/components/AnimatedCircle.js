@@ -1,7 +1,15 @@
-import {StyleSheet, View, Animated} from "react-native";
+import {Animated, StyleSheet} from "react-native";
 import React, {useState} from "react";
 import MartianColorHandler from "../../../FabscheAlgorithmus/src/scripts/MartianColorHandler";
 
+/**
+ * Die Klasse beinhaltet den Quellcode für den animierten Kreis, welcher auf dem Startbildschirm zu sehen ist.
+ * Es wird ein Element exportiert, welche im App.js benutzt wird.
+ *
+ * @see(App.js)
+ * @returns {JSX.Element}
+ * @constructor
+ */
 export default function AnimatedCircle() {
     const [animatedValue, setAnimatedValue] = useState(new Animated.Value(0));
     const [colorHandler] = useState(new MartianColorHandler());

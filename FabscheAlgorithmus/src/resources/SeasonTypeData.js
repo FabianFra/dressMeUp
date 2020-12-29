@@ -1,10 +1,10 @@
-/* Die Datei hält die Daten für die Farbtypen
+/* Die Datei hält die Daten für die Farbtypen.
  *
  * Version 1.0 - Attribute:
- *  id: Ist die eindeutige Id des Objekts. Dies wird zur Identifizierung der Farbtypen genutzt. Die Id wird mit dem Benutzerobjekt abgespeichert.
- *  name: Stellt den Namen des Farbtyps dar.
- *  nameI18N: Stellt den Namen des Farbtyps dar, welcher abhängig von der ausgewählten Sprache des Anwenders ist.
- *  matchingColors. Hält eine Menge aus Hex-Werten, welche die passenden Farben des Farbtyps darstellen.
+ *  - id: Ist die eindeutige Id des Objekts. Dies wird zur Identifizierung der Farbtypen genutzt. Die Id wird mit dem Benutzerobjekt abgespeichert.
+ *  - name: Stellt den Namen des Farbtyps dar.
+ *  - nameI18N: Stellt den Namen des Farbtyps dar, welcher abhängig von der ausgewählten Sprache des Anwenders ist.
+ *  - matchingColors. Hält eine Menge aus Hex-Werten, welche die passenden Farben des Farbtyps darstellen.
  *
  */
 export default

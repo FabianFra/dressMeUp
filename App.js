@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import { StyleSheet, View, Text, TouchableOpacity, Image } from 'react-native';
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
+import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack';
 
 import AnimatedCircle from './src/scripts/components/AnimatedCircle';
 import GlobalStyle from "./src/scripts/js/GlobalStyle";

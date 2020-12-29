@@ -1,19 +1,19 @@
-/* Die Datei hält die Daten für die auswaehlbaren Farben
+/* Die Datei hält die Daten für die auswaehlbaren Farben.
  *
  * Version 1.0 Attribute:
- *  name: Das Attribut hält den Namen der Farben, welche im UI zu sehen ist
- *  nameI18N: Das Attribut dient für den Anzeigetext, welcher abhängig von der ausgewählten Sprache des Anwenders ist (Hat bisher keinen Nutzen und ist nur ein Platzhalter für eine spätere Versionen)
- *  hsv: Das Attribut hält den HSV-Wert der Farbe. Wird für Farbkonvertierungen und Berechnungen benutzt (siehe  ffr_martianColor).
- *  rgb: Das Attribut hält den RGB-Wert der Farbe. Wird für Farbkonvertierungen und Berechnungen benutzt (siehe  ffr_martianColor).
- *  hex: Das Attribut hält den HEX-Wert der Farbe. Wird für Farbkonvertierungen, Berechnungen (siehe  ffr_martianColor) und zur Darstellung der Farbe im UI benutzt.
- *  specifications: Das Attribut stellt eine Menge an Farbobjekten dar. Diese Objecte stellen wiederum Untertöne der jeweiligen Farbe dar.
- *  representative: Das Atrtribut stellt eine Menge an Farbobjekten dar, welche die repräsentative Farbe der Farbfamilie ist.
- *  tints: Das Atrtribut stellt eine Menge an Farbobjekten dar, welche die Farbabstufungen der repräsentative Farbe darstellen (repräsentative Farbe + Weiß).
- *  shades: Das Atrtribut stellt eine Menge an Farbobjekten dar, welche die Farbabstufungen der repräsentative Farbe darstellen (repräsentative Farbe + Schwarz).
+ *  - name: Das Attribut hält den Namen der Farben, welche im UI zu sehen ist
+ *  - nameI18N: Das Attribut dient für den Anzeigetext, welcher abhängig von der ausgewählten Sprache des Anwenders ist (Hat bisher keinen Nutzen und ist nur ein Platzhalter für eine spätere Versionen)
+ *  - hsv: Das Attribut hält den HSV-Wert der Farbe. Wird für Farbkonvertierungen und Berechnungen benutzt (siehe  ffr_martianColor).
+ *  - rgb: Das Attribut hält den RGB-Wert der Farbe. Wird für Farbkonvertierungen und Berechnungen benutzt (siehe  ffr_martianColor).
+ *  - hex: Das Attribut hält den HEX-Wert der Farbe. Wird für Farbkonvertierungen, Berechnungen (siehe  ffr_martianColor) und zur Darstellung der Farbe im UI benutzt.
+ *  - specifications: Das Attribut stellt eine Menge an Farbobjekten dar. Diese Objecte stellen wiederum Untertöne der jeweiligen Farbe dar.
+ *  - representative: Das Atrtribut stellt eine Menge an Farbobjekten dar, welche die repräsentative Farbe der Farbfamilie ist.
+ *  - tints: Das Atrtribut stellt eine Menge an Farbobjekten dar, welche die Farbabstufungen der repräsentative Farbe darstellen (repräsentative Farbe + Weiß).
+ *  - shades: Das Atrtribut stellt eine Menge an Farbobjekten dar, welche die Farbabstufungen der repräsentative Farbe darstellen (repräsentative Farbe + Schwarz).
  *
- *  identifier: Ist eine Eingrenzung des Farbobjekts in eine Gruppierung. Diese helfen beim Filtern der bspw. additiven Primärfarben (siehe ffr_martianColor).
- *  colorFamily: Ist die Farbfamilie des Farbobjekts. Dies ist eine generelle Bezeichnung aller beinhalteten Farben. Red, Bordeaux, Ham gehören bspw. der Farbfamilie Red an.
- *  colorFamily: Ist der Name der Farbfamilie, welcher abhängig von der ausgewählten Sprache des Anwenders ist.
+ *  - identifier: Ist eine Eingrenzung des Farbobjekts in eine Gruppierung. Diese helfen beim Filtern der bspw. additiven Primärfarben (siehe ffr_martianColor).
+ *  - colorFamily: Ist die Farbfamilie des Farbobjekts. Dies ist eine generelle Bezeichnung aller beinhalteten Farben. Red, Bordeaux, Ham gehören bspw. der Farbfamilie Red an.
+ *  - colorFamily: Ist der Name der Farbfamilie, welcher abhängig von der ausgewählten Sprache des Anwenders ist.
  */
 
 export default {

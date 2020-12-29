@@ -6,6 +6,10 @@ import MartianColorHandler from "../../../FabscheAlgorithmus/src/scripts/Martian
 import TinyColor from "../frameworks/TinyColor/tinycolor";
 import HelperTool from "../../../FabscheAlgorithmus/src/scripts/Helpertool";
 
+/*
+ * Die Klasse beinhaltet die generischen Views für die Selektion einer Farbe. Die beinhalteten Komponenten werden
+ * für jede View benutzt, welche dem Anwender bittet eine Farbe auszuwählen.
+ */
 export default class MartianColorSelect extends Component {
 
     //-------------------------------------------------------------------------
@@ -54,6 +58,10 @@ export default class MartianColorSelect extends Component {
     //-------------------------------------------------------------------------
     // Generator(s)
 
+    /**
+     * Die Methode beinhaltet die UI-Elemente für die Auswahl einer Farbe des Martian-Color-Wheel
+     * @returns {JSX.Element}
+     */
     generateMartianColorsQuestion = () => {
         let colorsWithText = this.getColorsWithText(this.state.colorHandler.getAllAchromaticColors(true).concat(this.state.colorHandler.getAllRepresentativeColors()));
 
@@ -96,6 +104,10 @@ export default class MartianColorSelect extends Component {
         )
     }
 
+    /**
+     * Die Methode beinhaltet die UI-Elemente für die Auswahl einer oder mehrerer Farbe(n) des Martian-Color-Wheel
+     * @returns {JSX.Element}
+     */
     generateMartianColorsMultiSelectQuestion = () => {
         let colorsWithText = this.getColorsWithText(this.state.colorHandler.getAllAchromaticColors(true).concat(this.state.colorHandler.getAllRepresentativeColors()));
 
@@ -143,6 +155,10 @@ export default class MartianColorSelect extends Component {
         )
     }
 
+    /**
+     * Funktion, welche beim submit einer Antwort ausgeführt wird. Sie reinitialisiert den state (rerender der View).
+     * @param answer
+     */
     finalizeMartianColorSelect(answer) {
         this.props.onSubmit(answer);
         this.initializeState();
@@ -152,6 +168,11 @@ export default class MartianColorSelect extends Component {
     //-------------------------------------------------------------------------
     // Convenience method(s)
 
+    /**
+     * Erstellt aus den übergebenen Farben passende Objekte für das UI
+     * @param colors
+     * @returns {[]}
+     */
     getColorsWithText = (colors) => {
         let colorsWithText = [];
 
@@ -173,6 +194,13 @@ export default class MartianColorSelect extends Component {
         return colorsWithText;
     }
 
+    /**
+     * Erstellt aus einen Hex-Wert ein Objekt, welches Styling-Informationen beinhaltet. Diese werden im UI für die
+     * einzelnen auswählbaren Farbflächen benutzt.
+     *
+     * @param colorHex
+     * @returns {{squareStyle: {backgroundColor}, hex, textStyle: {color: (string)}}}
+     */
     generateColorWithTextObj = (colorHex) => {
         let colorTinyObject, textColor;
 
@@ -192,6 +220,17 @@ export default class MartianColorSelect extends Component {
         }
     }
 
+    /**
+     * Gibt die Spezifikationen der übergebenen Farbe zurück (specifications, monochromaticColors) und öffnet den modalen
+     * Dialog (rerender der View).
+     *
+     * Es werden die Objekte der specifications zurückgebenen, falls die übergebene Farbe eine achromatische Farbe ist.
+     * Es werden die monochromatischen Farbobjekte zurückgegeben, falls die übergebene Farbe eine nich achromatische Farbe
+     * ist.
+     *
+     * @see MartianColorWheelData.js
+     * @param color: Farbobjekt
+     */
     getColorSpecifications = (color) => {
         let colorSpecifications = undefined;
 
@@ -212,6 +251,13 @@ export default class MartianColorSelect extends Component {
         }
     }
 
+    /**
+     * Gibt die Style-KLassen für eine Multi-Select-Element zurück.
+     *
+     * @param itemData
+     * @param childSelected
+     * @returns {[*, {backgroundColor: *}|{backgroundColor: *}|{backgroundColor: *}|*, *]}
+     */
     getStyleClassForMultiSelect = (itemData, childSelected) => {
         let style = [GlobalStyle.colorSquare, itemData.item.squareStyle, GlobalStyle.commonShadow]
 
@@ -248,6 +294,12 @@ export default class MartianColorSelect extends Component {
         return style;
     }
 
+    /**
+     * Gibt die Style-Klasse für ein deaktiviertes Item zurück, falls die representative Farbe der Farbfamilie von dem
+     * übergebenen Hex-Wert deaktiviert ist.
+     * @param hex
+     * @returns {string}
+     */
     representativeItemIsDisabledStyleClass = (hex) => {
         let styleClass = '';
 
@@ -258,6 +310,11 @@ export default class MartianColorSelect extends Component {
         return styleClass;
     }
 
+    /**
+     * Überprüft, ob die repräsentative Farbe von der Farbfamilie des übergebenen Hex-Wertes deaktiviert ist.
+     * @param hex
+     * @returns {boolean}
+     */
     representativeItemIsDisabled = (hex) => {
         let isDisabled = true;
 
@@ -279,6 +336,13 @@ export default class MartianColorSelect extends Component {
         return isDisabled;
     }
 
+    /**
+     * Gibt die Style-Klasse für ein deaktiviertes Element zurück, falls das korrespondierende Ui-Element des
+     * übergebenen Hex-Wertes deaktiviert ist.
+     *
+     * @param hex
+     * @returns {string}
+     */
     itemIsDisabledStyleClass = (hex) => {
         let styleClass = '';
 
@@ -289,6 +353,11 @@ export default class MartianColorSelect extends Component {
         return styleClass;
     }
 
+    /**
+     * Überprüft, ob die Farbe von der Farbfamilie des übergebenen Hex-Wertes deaktiviert ist.
+     * @param hex
+     * @returns {boolean}
+     */
     itemIsDisabled = (hex) => {
         let itemIsDisabled = false;
 
@@ -303,6 +372,11 @@ export default class MartianColorSelect extends Component {
         return itemIsDisabled;
     }
 
+    /**
+     * Behandelt den Fall einer Änderung der selektierten Elemente.
+     *
+     * @param key: Id des Elements
+     */
     handleSelectedElements = (key) => {
         let selectedItems = this.state.selectedItems;
 
@@ -317,6 +391,11 @@ export default class MartianColorSelect extends Component {
         this.setState(this.state);
     }
 
+    /**
+     * Behandelt das long-press Event. Es werden die Farben der Farbfamilie von der selektierten repräsentativen Farbe
+     * selektiert/deselektiert.
+     * @param key: Id des Elements
+     */
     handleLongPressEvent = (key) => {
 
         if(this.state.colorHandler.isAchromaticColor(key)) {
@@ -356,6 +435,12 @@ export default class MartianColorSelect extends Component {
         }
     }
 
+    /**
+     * Gibt den Titel für den modalen Dialog zurücl
+     *
+     * @param value: Text
+     * @returns {*}
+     */
     getTitleForModal = (value) => {
         let modalTitle = this.props.question.modalTitle;
 
@@ -368,6 +453,10 @@ export default class MartianColorSelect extends Component {
         return modalTitle
     }
 
+    /**
+     * Schließt den modalen Dialog
+     * @param setState: boolean, ob die View rerendert werden soll
+     */
     closeModal = (setState) => {
         this.state.showModal = false;
 
@@ -376,6 +465,10 @@ export default class MartianColorSelect extends Component {
         }
     }
 
+    /**
+     * Beinhaltet die in der Klasse genutzten styling Informationen der UI-Elemente.
+     * @returns {{hasSelectedChild: {borderColor: string, borderRadius: number, borderWidth: number, borderStyle: string}, selectedElement: {borderColor: string, borderWidth: number}}}
+     */
     createStylesheet = () => {
         return {
             selectedElement: {

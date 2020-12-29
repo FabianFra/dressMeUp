@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {BackHandler} from "react-native-web";
 import * as RootNavigation from "../js/RootNavigation";
-import {FlatList, Image, Modal, Text, TouchableOpacity, View} from "react-native";
+import {FlatList, Modal, Text, TouchableOpacity, View} from "react-native";
 import GlobalStyle from "../js/GlobalStyle";
 import QuestionHandler from "../components/QuestionHandler";
 
@@ -9,24 +9,56 @@ import SearchForTop from "../../../FabscheAlgorithmus/src/scripts/SearchForTop";
 import TinyColor from "../frameworks/TinyColor/tinycolor";
 import MartianColorHandler from "../../../FabscheAlgorithmus/src/scripts/MartianColorHandler.js";
 
-export default class CreateUserView extends Component {
+/*
+ * Die Klasse beinhaltet Logik und Aussehen für die Suche nach der ausgewählten Kleidung. In Version 1.0 ist die Suche
+ * nach einem passenden Oberteil implementiert.
+ */
+export default class SearchView extends Component {
+
+    //-------------------------------------------------------------------------
+    // Constructor(s)
+
+    /**
+     * Konstruktor der Klasse
+     * @param props
+     */
     constructor(props) {
         super(props);
         this.state = { showQuestions: true, showResults: false, martianColorHandler: new MartianColorHandler() };
     }
 
+    //-------------------------------------------------------------------------
+    // Event handlers
+
+    /**
+     * Fügt das hardwareBackPress-Event an die Komponente an.
+     */
     componentDidMount() {
         BackHandler.addEventListener('hardwareBackPress', this.onBackButtonPress)
     }
 
+    /**
+     * Entfernt das hardwareBackPress-Event von der Komponente.
+     */
     componentWillUnmount() {
         BackHandler.removeEventListener('hardwareBackPress', this.onBackButtonPress)
     }
 
+    /**
+     * Navigiert zu dem StartScreen.
+     */
     onBackButtonPress = () => {
         RootNavigation.navigate("SearchMenu");
     }
 
+    //-------------------------------------------------------------------------
+    // (Convenience) methods
+
+    /**
+     * Evaluiert die Antworten des Anwenders und führt den Suchalgorithmus aus.
+     *
+     * @param answers
+     */
     evaluateAnswers = (answers) => {
         this.state.showQuestions = false;
         this.state.showResults = true;
@@ -39,14 +71,15 @@ export default class CreateUserView extends Component {
             answers["preferSaturatedColors"] = null;
         }
 
-        console.log("answerser: ", answers);
-        //console.log(global.currentUser);
-
         this.state.result = new SearchForTop(answers, global.currentUser).resultObject;
 
         this.setState(this.state);
     }
 
+    /**
+     * Render Funktion der Komponente
+     * @returns {JSX.Element}
+     */
     render = () => {
         const questions = [
             { id: "0", title: 'Möchtest du auffallen?', type: 'STANDARD_DYNAMIC', options: [{"key": "Ja", "value": false}, {"key": "Nein", "value": true}], storeAs: "wantToStandOut"},
@@ -94,6 +127,11 @@ export default class CreateUserView extends Component {
         )
     }
 
+    /**
+     * Erstellt aus den übergebenen Farben passende Objekte für das UI
+     * @param colors
+     * @returns {[]}
+     */
     getColorsWithText = (colors) => {
         let colorsWithText = [];
 
@@ -115,6 +153,13 @@ export default class CreateUserView extends Component {
         return colorsWithText;
     }
 
+    /**
+     * Erstellt aus einen Hex-Wert ein Objekt, welches Styling-Informationen beinhaltet. Diese werden im UI für die
+     * einzelnen auswählbaren Farbflächen benutzt.
+     *
+     * @param colorHex
+     * @returns {{squareStyle: {backgroundColor}, hex, textStyle: {color: (string)}}}
+     */
     generateColorWithTextObj = (colorHex) => {
         let colorTinyObject, textColor, martianColor;
 

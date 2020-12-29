@@ -1,4 +1,4 @@
-import SeasonTypeData from "../resources/seasonTypeData.js"
+import SeasonTypeData from "../resources/SeasonTypeData.js"
 
 import HelperTool from "./Helpertool.js";
 import LoggingTool from "./LoggingTool.js";

@@ -1,5 +1,8 @@
-import { StyleSheet } from 'react-native';
+import {StyleSheet} from 'react-native';
 
+/*
+ * Die Datei beinhaltet allgemeingültige Style-Informationen für UI-Komponenten.
+ */
 const colors = {
     primaryColor: '#2b3940',
     secondaryColor: '#ffffff'

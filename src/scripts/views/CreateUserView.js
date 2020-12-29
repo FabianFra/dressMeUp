@@ -1,6 +1,5 @@
-import React, {useState, Component} from 'react';
-import {Text, View, StyleSheet, TouchableOpacity, Modal} from "react-native";
-import { useNavigation } from '@react-navigation/native';
+import React, {Component} from 'react';
+import {Text, TouchableOpacity, View} from "react-native";
 
 import GlobalStyle from "../js/GlobalStyle";
 import QuestionHandler from "../components/QuestionHandler";
@@ -11,20 +10,53 @@ import {BackHandler} from "react-native-web";
 
 import SeasonTypeHandler from "../js/SeasonTypeHandler";
 
+/*
+ * Die Klasse beinhaltet Logik und Aussehen der View für das Erstellen des Anwenderprofils.
+ */
 export default class CreateUserView extends Component {
+
+    //-------------------------------------------------------------------------
+    // Constructor(s)
+
+    /**
+     * Konstruktor der Klasse
+     * @param props
+     */
     constructor(props) {
         super(props);
         this.initializeState();
     }
 
+    //-------------------------------------------------------------------------
+    // Event handlers
+
+    /**
+     * Fügt das hardwareBackPress-Event an die Komponente an.
+     */
     componentDidMount() {
         BackHandler.addEventListener('hardwareBackPress', this.onBackButtonPress)
     }
 
+    /**
+     * Entfernt das hardwareBackPress-Event von der Komponente.
+     */
     componentWillUnmount() {
         BackHandler.removeEventListener('hardwareBackPress', this.onBackButtonPress)
     }
 
+    /**
+     * Navigiert zu dem StartScreen.
+     */
+    onBackButtonPress = () => {
+        RootNavigation.navigate("StartScreen");
+    }
+
+    //-------------------------------------------------------------------------
+    // Convenience functions
+
+    /**
+     * Initialisiert den state der Komponente.
+     */
     initializeState = () => {
         this.state = {
             showQuestions: false,
@@ -32,15 +64,20 @@ export default class CreateUserView extends Component {
         }
     }
 
+    /**
+     * Setzt das flag, für das Zeigen der Fragen auf true.
+     */
     setShowQuestions = () => {
         this.state.showQuestions = true;
         this.setState(this.state);
     }
 
-    onBackButtonPress = () => {
-        RootNavigation.navigate("StartScreen");
-    }
-
+    /**
+     * Evaluiert die Antworten von dem Anwender, identifiziert den Farbtyp und speichert die essentiellen Daten in die
+     * asynchrone Datenbank.
+     *
+     * @param answers
+     */
     evaluateAnswers = (answers) => {
         let seasonType = SeasonTypeHandler.getSeasonTypeForParams(answers);
 
@@ -54,6 +91,10 @@ export default class CreateUserView extends Component {
         });
     }
 
+    /**
+     * Render Funktion der Komponente
+     * @returns {JSX.Element}
+     */
     render = () => {
         const questions = [
             { id: "0", title: 'Selektiere deine Augenfarbe?', modalTitle: "Selektiere den %ston deiner Augen", type: 'SELECT_SEASON_TYPE', options: [{"key": "Blau", "value": "0", "hex": "#1130a0", "options": [{"key": "Reines Blau", "value": "0", "hex": "#1130a0"}, {"key": "Blaugrün", "value": "1", "hex": "#16606b"}, {"key": "Blaugrau", "value": "2", "hex": "#364d76"}]},{"key": "Grün", "value": "1", "hex": "#4d8533", "options": [{"key": "Reines Grün", "value": "3", "hex": "#4d8533"}, {"key": "Grünbraun", "value": "4", "hex": "#566111"}, {"key": "Grüngrau", "value": "5", "hex": "#7a926f"}]}, {"key": "Braun", "value": "3", "hex": "#5e4122", "options": [{"key": "Reines Braun", "value": "6", "hex": "#5e4122"}, {"key": "Braungrün", "value": "7", "hex": "#655111"}, {"key": "Schwarzbraun", "value": "8", "hex": "#42331e"}]}], storeAs: 'eyeColor'},

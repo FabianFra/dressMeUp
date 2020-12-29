@@ -1,4 +1,4 @@
-import MartianColorWheelData from "../resources/martianColorWheelData.js";
+import MartianColorWheelData from "../resources/MartianColorWheelData.js";
 
 import HelperTool from "./Helpertool.js";
 import LoggingTool from "./LoggingTool.js";

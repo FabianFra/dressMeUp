@@ -1,13 +1,21 @@
-import seasonTypes from '../../../FabscheAlgorithmus/src/resources/seasonTypes.json'
+import seasonTypes from '../../../FabscheAlgorithmus/src/resources/SeasonTypeData'
 
+/*
+ * Im Rahmen der Identifizierung des Typs werden dem Anwender Fragen zu äußerlichen Merkmalen und Präferenzen gestellt.
+ * Der SeasonTypeHandler ermittelt anhand der gegebenen Daten den Typ des Anwenders. Grundlage ist der von Zalando
+ * implementierte Algorithmus, welcher auf der Theorie des Vier-Farbtyp-Systems basiert.
+ */
 class SeasonTypeHandler {
 
     /**
-     * params at index 0 --> (Grund-) Augenfarbe
-     * params at index 1 --> (Spezifikation) Augenfarbe
-     * params at index 2 --> (Grund-) Haarfarbe
-     * params at index 3 --> (Spezifikation) Haarfarbe
-     * params at index 4 --> Hautton
+     * Generiert die Antwortmöglichkeiten für die Selektion der Hautfarbe oder deren Spezifikation
+     *
+     * answers bei index 0 --> (Grund-) Augenfarbe
+     * answers bei index 1 --> (Spezifikation) Augenfarbe
+     * answers bei index 2 --> (Grund-) Haarfarbe
+     * answers bei index 3 --> (Spezifikation) Haarfarbe
+     * answers bei index 4 --> Hautton
+     *
      * @param answers
      */
     static getSelectableForSkinTone(answers) {
@@ -75,12 +83,8 @@ class SeasonTypeHandler {
     }
 
     /**
-     * params at index 0 --> (Grund-) Augenfarbe
-     * params at index 1 --> (Spezifikation) Augenfarbe
-     * params at index 2 --> (Grund-) Haarfarbe
-     * params at index 3 --> (Spezifikation) Haarfarbe
-     * params at index 4 --> Hautton
-     * params at index 5 --> Zusätzliche Informationen
+     * Identifiziert den Farbtyp anhand der Antworten
+     *
      * @param answers
      */
     static getSeasonTypeForParams(answers) {
@@ -106,6 +110,7 @@ class SeasonTypeHandler {
     }
 
     /**
+     * Gibt den Farbtyp anhand der übergebenen Id zurück.
      *
      * @param typeId --> Id of the season type
      */
@@ -123,27 +128,6 @@ class SeasonTypeHandler {
 
         return seasonTypeObject;
     }
-
-    analyseData(jsonObject, searchString, seasonType) {
-        let counter = 0
-        let result = {"results": [], "counter": 0};
-        searchString = searchString.toLowerCase();
-
-        jsonObject.forEach(element => {
-            let paramString = element.params.join(">").toLowerCase();
-
-            if (seasonType && seasonType.toLowerCase() === element.type.toLowerCase() && paramString.includes(searchString)) {
-                result.results.push(element.params + "|" + element.type)
-                result.counter++;
-            } else if (paramString.includes(searchString)) {
-                result.results.push(element.params + "|" + element.type)
-                result.counter++;
-            }
-        })
-
-        return result
-    }
-
 }
 
 export default SeasonTypeHandler;
