@@ -1,4 +1,4 @@
-Alle in dem Ordner befindlichen Ressourcen fallen unter die Lizens: Personal Use
+Alle in dem Ordner befindlichen Ressourcen fallen unter die Lizenz: Personal Use
 
 What is not allowed by the Personal License? (siehe https://www.cleanpng.com/png-vans-sneakers-slip-on-shoe-vector-shoes-5104117/download-png.html#Personal)
 
