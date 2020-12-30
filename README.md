@@ -46,9 +46,6 @@ dressMeUp
 └───src
     └───resources
     │   │ 
-    │   └───data
-    │   │   │   ...
-    │   │ 
     │   └───images
     │       │   ...
     │   
@@ -85,6 +82,10 @@ es benutzt, um farbspezifische Hilfsfunktionen und Farbkonvertierungen auszufüh
 
 ---
 ## FabscheAlgorithmus/resources
+### [MartianColorWheelData.js](FabscheAlgorithmus/src/resources/MartianColorWheelData.js)
+Die Datei exportiert die Daten für die auswaehlbaren Farben.
+
+Link: [http://warrenmars.com/visual_art/theory/colour_wheel/colour_wheel.htm](http://warrenmars.com/visual_art/theory/colour_wheel/colour_wheel.htm)
 
 ---
 
@@ -206,6 +207,7 @@ der Erarbeitung der Bachelorarbeit sowie beim Testen der Anwendung unterstützt.
 - _M. Frank_
 - _M. Heyer_
 - _T. Ostermaier_
+- _E. Schmeltzer_ 
 - _T. Stark_
 - _D. Weigel_
 - _S. Weigel_

@@ -1,17 +1,15 @@
 {
   "expo": {
-    "name": "dressMeUp",
-    "slug": "dressMeUp",
+    "name": "DressMeUp",
+    "slug": "DressMeUp",
     "platforms": [
-      "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./src/resources/images/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./src/resources/images/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,11 +19,9 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
-      "package": "host.exp.dressMeUp"
+      "package": "host.exp.dressMeUp",
+      "versionCode": 1
     }
   }
 }

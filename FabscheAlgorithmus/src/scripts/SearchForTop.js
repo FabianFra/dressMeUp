@@ -189,10 +189,6 @@ export default class SearchForTop extends FabscheAlgorithm{
     executeSortAlgorithm(array) {
         let unsortedArray = [...array];
         let answers = this.answers;
-
-        const trouserIsLight = TinyColor(answers.trousers).isLight();
-        const shoesAreLight = TinyColor(answers.shoes).isLight();
-
         let iterations = 0;
 
         /**
@@ -204,24 +200,22 @@ export default class SearchForTop extends FabscheAlgorithm{
          */
         unsortedArray.sort((x, y) => {
             let result = 0; // -1, 0, 1
-            let xMartianColor = this.martianColorHandler.findColorByHex(x);
-            let yMartianColor = this.martianColorHandler.findColorByHex(y);
 
             //-----------------------------------------------------------------
             // Check that the colors don't match with the trousers's color
 
-            if(x !== answers.trousers && y === answers.trousers) {
+            if(x !== this.answers.trousers && y === this.answers.trousers) {
                 result = -1;
-            } else if(x === answers.trousers && y !== answers.trousers) {
+            } else if(x === this.answers.trousers && y !== this.answers.trousers) {
                 result = 1;
             }
 
             //-----------------------------------------------------------------
             // Check if the colors match with the color of the shoes
 
-            if(x !== answers.shoes && y === answers.shoes) {
+            if(x !== this.answers.shoes && y === this.answers.shoes) {
                 result = 1;
-            } else if(x === answers.shoes && y !== answers.shoes) {
+            } else if(x === this.answers.shoes && y !== this.answers.shoes) {
                 result = -1;
             }
 
@@ -282,7 +276,7 @@ export default class SearchForTop extends FabscheAlgorithm{
             //-----------------------------------------------------------------
             // In regard to the eye color
 
-            if(result === 0 && this.user.focusEyeColor !== null) {
+            if(result === 0 && this.answers.focusEyeColor !== null) {
                 result = this.sortByEyeColor(x, y);
             }
 

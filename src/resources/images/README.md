@@ -21,11 +21,11 @@ __Vereinbarung:__
 
 __Sources:__
 
-tshirt.png: https://www.cleanpng.com/png-t-shirt-drawing-coloring-book-sleeve-camisa-brasil-4125353/download-png.html
+tshirt.png: https://www.pngkit.com/view/u2w7t4u2u2q8a9y3_png-black-and-white-library-shirt-collar-drawing/
 
-jacke.png: https://www.cleanpng.com/png-jean-jacket-coat-clothing-drawing-7126753/download-png.html
+jacket.png: https://www.pngkit.com/view/u2q8t4y3y3a9i1e6_drawing-jackets-hoodie-clipart-freeuse-jacket-outline-png/
 
-trousers.png: https://www.cleanpng.com/png-jeans-pants-drawing-sleeve-image-creature-of-7301855/download-png.html
+trousers.png: https://www.pngkit.com/view/u2w7e6w7t4q8i1u2_file-boxer-shorts-svg-boxer-shorts-drawing/
 
 shoes.png: https://www.cleanpng.com/png-sneakers-shoe-drawing-nike-cleat-2063958/download-png.html
 

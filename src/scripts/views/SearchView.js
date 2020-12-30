@@ -6,7 +6,7 @@ import GlobalStyle from "../js/GlobalStyle";
 import QuestionHandler from "../components/QuestionHandler";
 
 import SearchForTop from "../../../FabscheAlgorithmus/src/scripts/SearchForTop";
-import TinyColor from "../frameworks/TinyColor/tinycolor";
+import TinyColor from "../../../FabscheAlgorithmus/frameworks/TinyColor/tinycolor";
 import MartianColorHandler from "../../../FabscheAlgorithmus/src/scripts/MartianColorHandler.js";
 
 /*

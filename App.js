@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Image, StyleSheet, Text, TouchableOpacity, View} from 'react-native';
+import {Text, TouchableOpacity, View} from 'react-native';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
 
@@ -13,6 +13,7 @@ import SearchView from "./src/scripts/views/SearchView";
 import SeasonTypeHandler from "./src/scripts/js/SeasonTypeHandler";
 import FabscheAlgorithm from "./FabscheAlgorithmus/src/scripts/FabscheAlgorithm.js";
 import User from "./FabscheAlgorithmus/src/scripts/User";
+import LoggingTool from "./FabscheAlgorithmus/src/scripts/LoggingTool";
 
 
 export default class App extends Component{
@@ -71,23 +72,18 @@ export default class App extends Component{
                     <View style={{flex: 0.8, flexDirection: "column", justifyContent: "center",  marginHorizontal: 10}}>
                         <TouchableOpacity style={[GlobalStyle.mainMenuButton, GlobalStyle.commonShadow, {flexDirection: "row", justifyContent: "center"}]} onPress={() => { global.searchFor = FabscheAlgorithm.SEARCH_OPTIONS.SHIRT; navigation.navigate('SearchView') }}>
                             <Text style={[GlobalStyle.commonText, {marginRight: 10}]}>T-Shirt</Text>
-                            <Image style={{width: 50, height: 50, tintColor: '#ffffff'}} source={require('./src/resources/images/tshirt.png')}/>
                         </TouchableOpacity>
                         <TouchableOpacity disabled={true} style={[GlobalStyle.mainMenuButton, GlobalStyle.disabled, {flexDirection: "row", justifyContent: "center"}]}>
                             <Text style={[GlobalStyle.commonText, {marginRight: 10}]}>Jacke</Text>
-                            <Image style={{width: 50, height: 50, tintColor: '#ffffff'}} source={require('./src/resources/images/jacke.png')}/>
                         </TouchableOpacity>
                         <TouchableOpacity disabled={true} style={[GlobalStyle.mainMenuButton, GlobalStyle.disabled, {flexDirection: "row", justifyContent: "center"}]}>
                             <Text style={[GlobalStyle.commonText, {marginRight: 10}]}>Hose</Text>
-                            <Image style={{width: 50, height: 50, tintColor: '#ffffff'}} source={require('./src/resources/images/trousers.png')}/>
                         </TouchableOpacity>
                         <TouchableOpacity disabled={true} style={[GlobalStyle.mainMenuButton, GlobalStyle.disabled, {flexDirection: "row", justifyContent: "center"}]}>
                             <Text style={[GlobalStyle.commonText, {marginRight: 10}]}>Schuhe</Text>
-                            <Image style={{width: 50, height: 50, tintColor: '#ffffff', resizeMode: "contain"}} source={require('./src/resources/images/shoes.png')}/>
                         </TouchableOpacity>
                         <TouchableOpacity disabled={true} style={[GlobalStyle.mainMenuButton, GlobalStyle.disabled, {flexDirection: "row", justifyContent: "center"}]}>
                             <Text style={[GlobalStyle.commonText, {marginRight: 10}]}>Krawatte</Text>
-                            <Image style={{width: 50, height: 50, tintColor: '#ffffff'}} source={require('./src/resources/images/necktie.png')}/>
                         </TouchableOpacity>
                     </View>
                 </View>
@@ -110,10 +106,10 @@ export default class App extends Component{
     handleNavigation = async (navigation) => {
         await DatabaseHandler.getDataObject("userData").then(data => {
             if(data === null) {
-                console.log("Navigate to create user profile")
+                LoggingTool.printDebug("Navigate to create user profile")
                 navigation.navigate('CreateUserView');
             } else {
-                console.log("Navigate to HomeScreen")
+                LoggingTool.printDebug("Navigate to HomeScreen")
                 this.setSeasonType(data);
                 global.currentUser = new User(global.seasonType.id, data.skinColor, data.eyeColor, data.hairColor, data.desirableColors, data.undesirableColors);
                 navigation.navigate('HomeScreen')
@@ -138,14 +134,12 @@ export default class App extends Component{
         if(typeof seasonTypeObject !== "undefined") {
             global.seasonType = seasonTypeObject;
         } else {
-            console.error("Couldn't assign the global variable (seasonType) for the current user.");
+            LoggingTool.printError("Couldn't assign the global variable (seasonType) for the current user.");
         }
     }
 
     render = () => {
         let Stack = createStackNavigator();
-
-        //DatabaseHandler.removeAppsKeys();
         
         return (
             <NavigationContainer ref={navigationRef}>
@@ -161,19 +155,3 @@ export default class App extends Component{
     }
 
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#2b3940',
-        alignItems: 'center',
-        justifyContent: 'center',
-        borderColor: 'black'
-    },
-    title: {
-        color: '#f5f6f7',
-        fontSize: 32,
-        fontWeight: 'bold',
-        fontFamily: 'Roboto'
-    }
-});

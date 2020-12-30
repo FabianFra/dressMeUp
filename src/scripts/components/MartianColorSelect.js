@@ -3,7 +3,7 @@ import {FlatList, Modal, Text, TouchableOpacity, View} from "react-native";
 import GlobalStyle from "../js/GlobalStyle";
 
 import MartianColorHandler from "../../../FabscheAlgorithmus/src/scripts/MartianColorHandler";
-import TinyColor from "../frameworks/TinyColor/tinycolor";
+import TinyColor from "../../../FabscheAlgorithmus/frameworks/TinyColor/tinycolor";
 import HelperTool from "../../../FabscheAlgorithmus/src/scripts/Helpertool";
 
 /*
@@ -160,6 +160,7 @@ export default class MartianColorSelect extends Component {
      * @param answer
      */
     finalizeMartianColorSelect(answer) {
+        console.log("finalizeMartianColorSelect: " + answer);
         this.props.onSubmit(answer);
         this.initializeState();
         this.setState(this.state);

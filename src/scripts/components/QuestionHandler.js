@@ -3,7 +3,7 @@ import {FlatList, Modal, StyleSheet, Text, TouchableOpacity, View} from "react-n
 
 import GlobalStyle from "../js/GlobalStyle";
 import MartianColorHandler from "../../../FabscheAlgorithmus/src/scripts/MartianColorHandler";
-import TinyColor from "../frameworks/TinyColor/tinycolor";
+import TinyColor from "../../../FabscheAlgorithmus/frameworks/TinyColor/tinycolor";
 import SeasonTypeHandler from "../js/SeasonTypeHandler";
 
 import HelperTool from "../../../FabscheAlgorithmus/src/scripts/Helpertool";
