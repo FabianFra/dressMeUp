@@ -1,6 +1,6 @@
 const loggingIsActive = true;
 
-const showLog = true;
+const showLog = false;
 const showDebug = false;
 const showWarn = true;
 const showError = true;

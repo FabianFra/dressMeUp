@@ -39,7 +39,8 @@ export default function AnimatedCircle() {
         Animated.sequence([
             Animated.timing(animatedValue, {
                 toValue: 120,
-                duration: 120000
+                duration: 120000,
+                useNativeDriver: false
             })
         ])
     ).start()

@@ -195,7 +195,7 @@ einem passenden Oberteil implementiert.
 ---
 ## Danksagung
 
-Im folgenden Abschnitt möchte ich mir für die Unterstützung der folglich genannten Personen bedanken. Sie haben mich während
+Im folgenden Abschnitt möchte ich mich für die Unterstützung der folglich genannten Personen bedanken. Sie haben mich während
 der Erarbeitung der Bachelorarbeit sowie beim Testen der Anwendung unterstützt.
 
 - _D. Albrecht_
@@ -206,10 +206,15 @@ der Erarbeitung der Bachelorarbeit sowie beim Testen der Anwendung unterstützt.
 - _E. Felski_
 - _M. Frank_
 - _M. Heyer_
+- _Prof. Dr. B. Messer_
 - _T. Ostermaier_
 - _E. Schmeltzer_ 
 - _T. Stark_
+- _Dr. H. Thiel_  
 - _D. Weigel_
 - _S. Weigel_
+
+Ein besonderer Dank gebührt _Warren Mars_ für das Bereitstellen des von ihm geschaffenen Farbrads 
+([Martian-Color-Wheel](http://warrenmars.com/visual_art/theory/colour_wheel/colour_wheel.htm)) 
 
 
