@@ -9,14 +9,16 @@ Anwender können nach einen Kleidungsstück, zum Beispiel einen T-Shirt oder ein
 Menge an passenden Farben dargestellt. Präferenzen und das äußerliche Erscheinungsbild des Anwenders sollen hierbei
 berücksichtigt werden, um die Ergebnismenge zu sortieren. Die Gewichtung der Sortierparameter soll möglichst real sein.
 
-Das Projekt ist innerhalb meiner Bachelorarbeit entstanden und ist öffentlich zugänglich im Google Play Store.
 
 ---
 ## Verfügbarkeit
-Der geschriebene Quellcode ist öffentlich zugänglich und liegt unter der MIT Lizenz. Das geschriebene Projekt ist als mobile Applikation im [Google Play Store](https://play.google.com/store/apps/details?id=host.exp.dressMeUp)
-erhältlich.
+Der geschriebene Quellcode ist öffentlich zugänglich und liegt unter der MIT Lizenz. Das Projekt ist innerhalb meiner Bachelorarbeit entstanden und ist öffentlich zugänglich im [Google Play Store](https://play.google.com/store/apps/details?id=host.exp.dressMeUp).
 
+<p align="center">
+  <img src="src/resources/images/QrCode.png" />
+</p>
 
+---
 ## Klassenhierarchie
 ![Klassenhierarchie](FabscheAlgorithmus/src/resources/images/DressMeUp-Klassenhierarchie.png)
 
