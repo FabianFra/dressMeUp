@@ -12,6 +12,10 @@ berücksichtigt werden, um die Ergebnismenge zu sortieren. Die Gewichtung der So
 Das Projekt ist innerhalb meiner Bachelorarbeit entstanden und ist öffentlich zugänglich im Google Play Store.
 
 ---
+## Verfügbarkeit
+Der geschriebene Quellcode ist öffentlich zugänglich und liegt unter der MIT Lizenz. Das geschriebene Projekt ist als mobile Applikation im [Google Play Store](https://play.google.com/store/apps/details?id=host.exp.dressMeUp)
+erhältlich.
+
 
 ## Klassenhierarchie
 ![Klassenhierarchie](FabscheAlgorithmus/src/resources/images/DressMeUp-Klassenhierarchie.png)
