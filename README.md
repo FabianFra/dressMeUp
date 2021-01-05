@@ -133,7 +133,7 @@ In dem Pfad befinden sich essentielle Daten für das Arbeiten mit der Applikatio
 
 ---
 ## [src/resources/images](src/resources/images)
-In dem Pfad befinden sich die Bilder, welche in der mobilen Applikation benutzt werden. Bitte beachten Sie die [README.md](src/resources/images/README.md).
+In dem Pfad befinden sich die Bilder, welche in der mobilen Applikation benutzt werden (Icons, Splash usw.).
 
 ---
 ## src/scripts/components
