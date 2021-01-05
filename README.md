@@ -18,6 +18,26 @@ Der geschriebene Quellcode ist öffentlich zugänglich und liegt unter der MIT L
   <img src="src/resources/images/QrCode.png" />
 </p>
 
+Um die Anwendung lokal zu testen benötigen Sie folgende dependencies:
+```javascript
+  "dependencies": {
+    "@react-native-community/async-storage": "~1.12.0",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/native": "^5.5.1",
+    "@react-navigation/stack": "^5.5.1",
+    "expo": "^40.0.0",
+    "jquery": "^3.5.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+    "react-native-gesture-handler": "~1.8.0",
+    "react-native-reanimated": "~1.13.0",
+    "react-native-safe-area-context": "3.1.9",
+    "react-native-screens": "~2.15.0",
+    "react-native-web": "~0.13.12"
+  }
+```
+
 ---
 ## Klassenhierarchie
 ![Klassenhierarchie](FabscheAlgorithmus/src/resources/images/DressMeUp-Klassenhierarchie.png)
