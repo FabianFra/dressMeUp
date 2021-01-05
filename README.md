@@ -231,6 +231,7 @@ der Erarbeitung der Bachelorarbeit sowie beim Testen der Anwendung unterstützt.
 - _M. Frank_
 - _M. Heyer_
 - _Prof. Dr. B. Messer_
+- _S. Müller_
 - _T. Ostermaier_
 - _E. Schmeltzer_ 
 - _T. Stark_
