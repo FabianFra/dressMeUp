@@ -207,7 +207,6 @@ der Erarbeitung der Bachelorarbeit sowie beim Testen der Anwendung unterstützt.
 - _D. Albrecht_
 - _S. Albrecht_
 - _C. Ebel_
-- _S. Ebel_
 - _E. Felski_
 - _M. Frank_
 - _M. Heyer_
@@ -215,7 +214,7 @@ der Erarbeitung der Bachelorarbeit sowie beim Testen der Anwendung unterstützt.
 - _T. Ostermaier_
 - _E. Schmeltzer_ 
 - _T. Stark_
-- _Dr. H. Thiel_  
+- _Prof. Dr. H. Theel_  
 - _D. Weigel_
 - _S. Weigel_
 
